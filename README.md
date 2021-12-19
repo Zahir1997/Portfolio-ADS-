@@ -11,9 +11,13 @@ This is the personal portfolio of a public administration student following the 
 
 ### Reflection on own contribution to the project.
 Situation:
-Task:	
+
+Task:
+
 Action:
+
 Result:
+
 Reflection:
 
 
