@@ -2,3 +2,4 @@
 Lecturers: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
 
 ## Smart Teddy Project
+### Introduction
