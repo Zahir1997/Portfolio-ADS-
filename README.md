@@ -71,7 +71,7 @@ The research proposal was written by myself and Breno. We have written the resea
 The scope of the research, sub-questions, evaluation method, and related work are also covered in the 
 [research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p).
 
-### Notes
+#### Notes
 Every week the research group had meetings with lectureres and the product owner. New ideas and feedback are some of the many things that are discussed at the meetings. At these meetings I functioned as a note taker to have the topics that are discussed written down so that the research group won't forget it. The [notes](https://docs.google.com/document/d/1xQncillbnLcRF8wKagUnnbbejlcOvx4zWCJvwhQ0PGc/edit#) are here.
 
 
