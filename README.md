@@ -59,10 +59,10 @@ More information about the main research question will be covered in the researc
 #### Research proposal
 The research proposal was written by myself and Breno. We have written the research propsal to get a clear view of the research we are going to conduct and it also has been of aid at writing the research paper. The reason that the research main question was chosen, was because the research group were investigating the current methods of classifying emotions from audio data. After investigating these methods the research group make a choice for the best looking model and will train it on the emotion-labelled datasets that we have found. Aiming for the highest precision was chosen because the end use involves mental health regarding dementia which must be handled with care. It's unacceptable to have a lot of false positives because the teddy bear is used as an advisor and the professionals can decide how to respond to this. It is better to be certain of an emotion than to misclassify an emotion. The emotions detected and shown are an indication of how the patient is feeling and if he is capable of living on his own. 
 The scope of the research, sub-questions, evaluation method, and related work are also covered in the 
-[Research Proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p)
+[research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p).
 
 ### Notes
-Every week the research group had meetings with lectureres the product owner. New ideas and feedback are some of the many things that are discussed at the meetings. At these meeetings I functioned as a note taker to have the topics that are discussed written down so that the research group won't forget is. The [Notes](https://docs.google.com/document/d/1xQncillbnLcRF8wKagUnnbbejlcOvx4zWCJvwhQ0PGc/edit#) are here.
+Every week the research group had meetings with lectureres the product owner. New ideas and feedback are some of the many things that are discussed at the meetings. At these meeetings I functioned as a note taker to have the topics that are discussed written down so that the research group won't forget is. The [notes](https://docs.google.com/document/d/1xQncillbnLcRF8wKagUnnbbejlcOvx4zWCJvwhQ0PGc/edit#) are here.
 
 
 ### Evaluation
