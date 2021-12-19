@@ -16,7 +16,7 @@ The Smart Teddy Project was the first data science project I participated in. I 
 
 Task:
 
-One of the challenging contribution I had made was to classify and evaluate positive and negative emotions for the machine learning models we had made. I had to preprocess the emotions through speech audio from the datasets in to a positive and negative classification. Then I had to run it with the machine learning models we had made. After the runs I had to evaluate the results of the positive and negative classification. The contributions I had made were in the beginning more towards the research part of the project. But when I got familiar with programming I have made some contributions towards the technical part of the project.
+One of the challenging contribution I had to classify and evaluate positive and negative emotions for the machine learning models we  made. I had to preprocess the emotions through speech audio from the datasets in to a positive and negative classification. Then I had to run it with the machine learning models we had made. After the runs I had to evaluate the results of the positive and negative classification. The contributions I had made were in the beginning more towards the research part of the project. But when I got familiar with programming I have made some contributions towards the technical part of the project.
 
 Action:
 
