@@ -41,7 +41,7 @@ Task:
 The learning objectives what I wanted to learn are the following:
 1.	I want to learn the basics of python 
 2.	I want to learn how to implement a working machine model on a dataset
-3.	I want to extend my research capabilities by learning more about visualization
+3.	I want to extend my research capabilities by learning more about data visualization
 4.	I want to learn how to implement a working neural network on a dataset
 
 Action:
