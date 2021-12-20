@@ -34,7 +34,8 @@ The lesson I have learned was to always be open about the progress you made. Fou
 ### Reflection on own learning objectives.
 Situation:
 
-There was a reason why me, a public administration student had chosen this minor. I wanted to dive in the world of data science so I can implement the tools and methods that i am going to learn in my future career at the public sector. So I have set up some learning objectives in the minor I wanted to be able to at the end.
+There was a reason why me, a public administration student had chosen this minor. I wanted to dive in the world of data science so I can implement the tools and methods that i am going to learn in my future career at the public sector. I have set up some learning objectives in the minor I wanted to be able to at the end.
+
 Task:
 
 The learning objectives what I wanted to learn are the following:
