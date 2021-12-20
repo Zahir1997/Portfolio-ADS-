@@ -28,7 +28,7 @@ I am happy with the results we accomplished. The group as whole were helpful tow
 
 Reflection:
 
-The lesson I have learned is to always be open about the progress you made. Four project members are studying software engineer and got much more experience than I do in the field of computer sciences. Since I am aware that my programming skills are not so well-polished as the four project members I had to ask for help at some moments were things aren’t going that well. But when I shared my screen and was looking with a project member together I got some helpful feedback to get the job done. Openness about the work you are doing was the key factor to made your contribution to the project a success.
+The lesson I have learned was to always be open about the progress you made. Four project members are studying software engineer and got much more experience than I do in the field of computer sciences. Since I am aware that my programming skills are not so well-polished as the four project members I had to ask for help at some moments when things aren’t going that well. But when I shared my screen and was looking with a project member together I got some helpful feedback to get the job done. Openness about the work you are doing was the key factor to made your contribution to the project a success.
 
 
 ### Reflection on own learning objectives.
