@@ -34,7 +34,14 @@ The lesson I have learned was to always be open about the progress you made. Fou
 ### Reflection on own learning objectives.
 Situation:
 
+There was a reason why me, a public administration student had chosen this minor. I wanted to dive in the world of data science so I can implement the tools and methods that i am going to learn in my future career at the public sector. So I have set up some learning objectives in the minor I wanted to be able to at the end.
 Task:
+
+The learning objectives what I wanted to learn are the following:
+1.	I want to learn the basics of python 
+2.	I want to learn how to implement a working machine model on a dataset
+3.	I want to extend my research capabilities by learning more about visualization
+4.	I want to learn how to implement a working neural network on a dataset
 
 Action:
 
@@ -67,7 +74,7 @@ Which machine learning models achieve the highest precision classifying emotions
 More information about the main research question will be covered in the research proposal sub-chapter.
 
 #### Research proposal
-The research proposal was written by myself and Breno. We have written the research propsal to get a clear view of the research we are going to conduct and it also has been of aid at writing the research paper. The reason that the research main question was chosen, was because the research group were investigating the current methods of classifying emotions from audio data. After investigating these methods the research group make a choice for the best looking model and will train it on the emotion-labelled datasets that we have found. Aiming for the highest precision was chosen because the end use involves mental health regarding dementia which must be handled with care. It's unacceptable to have a lot of false positives because the teddy bear is used as an advisor and the professionals can decide how to respond to this. It is better to be certain of an emotion than to misclassify an emotion. The emotions detected and shown are an indication of how the patient is feeling and if he is capable of living on his own. 
+The research proposal was written by myself and project member Breno van Tricht. We have written the research propsal to get a clear view of the research we are going to conduct and it also has been of aid at writing the research paper. The reason that the research main question was chosen, was because the research group were investigating the current methods of classifying emotions from audio data. After investigating these methods the research group make a choice for the best looking model and will train it on the emotion-labelled datasets that we have found. Aiming for the highest precision was chosen because the end use involves mental health regarding dementia which must be handled with care. It's unacceptable to have a lot of false positives because the teddy bear is used as an advisor and the professionals can decide how to respond to this. It is better to be certain of an emotion than to misclassify an emotion. The emotions detected and shown are an indication of how the patient is feeling and if he is capable of living on his own. 
 The scope of the research, sub-questions, evaluation method, and related work are also covered in the 
 [research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p).
 
