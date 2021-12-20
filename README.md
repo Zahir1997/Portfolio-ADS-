@@ -12,7 +12,7 @@ This is the personal portfolio of a public administration student following the 
 ### Reflection on own contribution to the project.
 Situation:
 
-The Smart Teddy Project was the first data science project I participated in. I have positive memories of the project group I participated in. From day 1 we started of at the project by exchanging socials and discussing ways to keep track of the project. Since my major is public administration (Bestuurskunde/Overheidsmanagement) I was a bit worried about my contribution to the project. I had moments at the beginning of the minor where I questioned myself if I am capable of completing this minor. But by staying motivated, asking questions and the will to learn I have managed to make contributions to the project. 
+The Smart Teddy Project was the first data science project I participated in. I have positive memories of the project group I participated in. From day 1 we started of the project by exchanging socials and discussing ways to keep track of the project. Since my major is public administration (Bestuurskunde/Overheidsmanagement) I was a bit worried about my contribution to the project. I had moments at the beginning of the minor where I questioned myself if I am capable of completing this minor. But by staying motivated, asking questions and the will to learn I have managed to make contributions to the project. 
 
 Task:
 
