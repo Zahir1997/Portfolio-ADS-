@@ -49,7 +49,7 @@ Action:
 To reach the learning objectives I have set myself I did the following:
 
 As a public administration student I didn’t know any programming languages. I was determined at the start of the minor to learn myself the basics of python since it was the programming language the minor was using. 
-After I learned about machine learning models at DataCamp and the lectures from Jeroen Vuurens.
+I learned about machine learning models at DataCamp and the lectures from Jeroen Vuurens.
 I wanted to increase my research capabilities by learning more about data visualization. The workshops of Tony Andrioli were helpful in that matter. The do’s and don’t of data visualization were helpful. 
 To implement a working neural network I have followed the lectures of Jeroen Vuurens. 
 
