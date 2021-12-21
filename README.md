@@ -64,14 +64,23 @@ I am satisfied with the results I have achieved in such short notice. I came to 
 ### Evaluation on the group project as a whole.
 Situation:
 
+The group I participated in consist of six members including me in total. Four group members are studying software engineering and one student is studying business administration. We were all students that had to finish a minor to enter the graduation phases of our studies.  
+
 Task:
+
+Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what to social platform we are going to use to communicate. One software engineer student is also a teacher at THUAS so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
 
 Action:
 
+In some scenarios we would work all focus on one thing. Take for example the literature research, in the beginning of the project we have researched and discussed various papers to gain domain knowledge. In some scenarios we would work independently on our contributions. Take for example  writing the research proposal me and the business administration student had accomplished to pave a direction of the research we have conducted.  In some scenarios we would be pair programming. For example, me and a software engineer student would be working together to train and evaluate a logistic regression model. When a group member was stuck on a contribution, another group member would jump in to help. We all were eager to get the job done even when we faced setbacks. When we faced setbacks we would discuss them on school to brainstorm for a solution. The lecturers were also helpful to guide us when we faced setbacks.
+
 Result:
+
+I am happy with the results we have accomplished. The group members were motivated from start to finish of the project and that shows in the final result. Everybody had made a contribution to the project.
 
 Reflection:
 
+I have enjoyed my first data science project with the group I was in. Everybody did what they had to do and was open about it by giving a heads-up during the daily stand-ups. After the sprint we had a retrospective where we would discuss the good aspects of the current sprint, bad aspects of the current sprint and action points for the next sprint. 
   
 ## Research Project
 
