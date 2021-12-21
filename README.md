@@ -59,7 +59,7 @@ I have given whatever it takes to fulfill my learning objectives and with succes
 
 Reflection:
 
-I am satisfied with the results I have achieved in such short notice. I came to this minor with zero knowledge about python, machine learning models, neural networks and data visualization techniques. During this minor I have given whatever it takes to complete my learning objectives. I realized that I am not done learning yet. I am going to keep learning and training my data science skills.
+I am satisfied with the results I have achieved in such short notice. I came to this minor with zero knowledge about python, machine learning models, neural networks and data visualization techniques. During this minor I have given whatever it takes to complete my learning objectives. I realized that I am not done learning yet. I am going to keep  training my data science skills.
 
 ### Evaluation on the group project as a whole.
 Situation:
