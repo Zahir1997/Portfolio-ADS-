@@ -55,7 +55,7 @@ To implement a working neural network I have followed the lectures of Jeroen Vuu
 
 Result:
 
-I have given whatever it takes to fulfill my learning objectives and with success. The learning objectives I have set have all been addressed in the minor. For learning the basics of python I have achieved 100% completion of the courses from DataCamp. For implementing machine learning models on datasets I have trained various machine learning models such as a SVM,  a linear regression model and a decisiontreeclassifier on various dataset from sklearn and Kaggle. I have learned about the python package Matplotlib.pyplot to create visualizations from data. Matplotlib.pyplot is something I am taking with me for the rest of my study career and future career. I have implemented a feed forward neural network and a convolutional network on the MNIST dataset.
+I have given whatever it takes to fulfill my learning objectives and with success. The learning objectives I have set have all been addressed in the minor. For learning the basics of python I have achieved 100% completion of the courses from DataCamp. For implementing machine learning models on datasets I have trained various machine learning models such as a SVM,  a linear regression model and a decisiontreeclassifier on various dataset from sklearn and Kaggle. I have learned about the python package Matplotlib.pyplot to create visualizations from data. Matplotlib.pyplot is something I am taking with me for the rest of my study career and future career. And for the neural network learning objective I have implemented a feed forward neural network and a convolutional network on the MNIST dataset.
 
 Reflection:
 
@@ -68,7 +68,7 @@ The group I participated in consist of six members including me in total. Four g
 
 Task:
 
-Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what to social platform we are going to use to communicate. One software engineer student is also a teacher at The Hague University of Applied Sciences so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
+Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what social platform we are going to use to communicate. One software engineer student is also a teacher at The Hague University of Applied Sciences so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
 
 Action:
 
