@@ -80,7 +80,7 @@ I am happy with the results we have accomplished. The group members were motivat
 
 Reflection:
 
-I have enjoyed my first data science project with the group I was in. Everybody did what they had to do and was open about it by giving a heads-up during the daily stand-ups. After the sprint we had a retrospective where we would discuss the good aspects of the current sprint, bad aspects of the current sprint and action points for the next sprint. 
+I have enjoyed my first data science project with the group I was in. Everybody did what they had to do and was open about it by giving a heads-up during the daily stand-ups. After the sprint we had a retrospective where we would discuss the good aspects of the current sprint, bad aspects of the current sprint and action points for the next sprint. I enjoyed this structured way of working. 
   
 ## Research Project
 
