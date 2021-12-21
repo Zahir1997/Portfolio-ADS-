@@ -68,7 +68,7 @@ The group I participated in consist of six members including me in total. Four g
 
 Task:
 
-Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what to social platform we are going to use to communicate. One software engineer student is also a teacher at THUAS so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
+Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what to social platform we are going to use to communicate. One software engineer student is also a teacher at The Hague University of Applied Sciences so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
 
 Action:
 
