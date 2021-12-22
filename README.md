@@ -112,7 +112,23 @@ Every week the research group had meetings with lectureres and the product owner
 
 ### Selecting a Model
 
+The machine learning models the group have worked on to make predictions are: SVM, logistic regression, multi-layered perceptron and a KNN model.
+Me and Jaap have worked on a logistic regression model to make predictions. Since we didn't have acces to real world data for the project we used datasets containing vocal audio samples spoken in different emotions. We have chosen this model because in our literature study we came across a [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) that used a logistic regression model to make predictions on one of the datasets (RAVDESS) we are using. We were interested in what the results would be for both datasets we used.  
+
 ### Configuring a Model
+For the configuration of the logistic regression model we have used all hyperparameters that we could [find](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
+    
+    class LogisticalRegression(BaseModel):
+    instance = "Logistical Regression"
+    
+    @classmethod
+    def grid_search(self,model,x_train, x_test, y_train, y_test,scoring):
+        
+        solvers = ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga']
+        penalty = ['none', 'l1','l2','elasticnet']'
+        
+The reason why we have chosen all hyperparameters is because we are using GridsearchCV to select the best hyperparameters from all hyperparameters the model offers.      
+       
 
 ### Training a model
 
