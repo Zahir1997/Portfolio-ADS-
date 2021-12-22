@@ -113,7 +113,7 @@ Every week the research group had meetings with lectureres and the product owner
 ### Selecting a Model
 
 The machine learning models the group have worked on to make predictions are: SVM, logistic regression, multi-layered perceptron and a KNN model.
-Me and Jaap have worked on a logistic regression model to make predictions. Since we didn't have acces to real world data for the project we used datasets containing vocal audio samples spoken in different emotions. We have chosen this model because in our literature study we came across a [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) that used a logistic regression model to make predictions on one of the datasets (RAVDESS) we are using. We were interested in what the results would be for both datasets we used.  
+Me and Jaap have worked on a logistic regression model to make predictions. Since we didn't have acces to real world data for the project we used datasets containing vocal audio samples spoken in different emotions. We have chosen this model because in our literature study we came across a [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) that used a logistic regression model to make predictions on one of the datasets (RAVDESS) we are using. We were interested in what the results would be for both datasets we used. We have used the RAVDESS and CREMA-D datasets  
 
 ### Configuring a Model
 For the configuration of the logistic regression model we have used all hyperparameters that we could [find](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
@@ -125,14 +125,48 @@ For the configuration of the logistic regression model we have used all hyperpar
     def grid_search(self,model,x_train, x_test, y_train, y_test,scoring):
         
         solvers = ['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga']
-        penalty = ['none', 'l1','l2','elasticnet']'
-        
-The reason why we have chosen all hyperparameters is because we are using GridsearchCV to select the best hyperparameters from all hyperparameters the model offers.      
+        penalty = ['none', 'l1','l2','elasticnet']
+        param_grid = dict(solver=solvers,penalty=penalty,C=c_values)
+            
        
 
 ### Training a model
 
+To prevent to model for overfitting and underfitting we have used GridSearchCV. What GridsearchCV basically does is to find the best hyperparameters for you to fit it a model you are using. That is the reason why we have chosen all hyperparameters from the logistic regression model since GridsearchCV will search for the best hyperparameters the model has to offer.
+
+        start_time = time.perf_counter()
+        clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
+        end_time = time.perf_counter()
+        print(f"Duration Gridsearch: {end_time - start_time:04f}")
+        
+        start_time = time.perf_counter()
+        clf.fit(x_train, y_train)
+        end_time = time.perf_counter()
+        
+        print(f"Duration fitting: {end_time - start_time:04f}")
+        print()
+        
+        print("Best parameters set found on development set:")
+        print(clf.best_params_)
+        print(clf.best_estimator_)
+
+        super().model_accuracy(clf, x_train, x_test, y_train, y_test)
+        
+I have tweaked the cv parameter a bit to see if there are any changes in the train and test accuracy. I have noticed that there is a minimal positive change in train and test accuracy when you change the cv parameter to an even variable and a minimal negative change when you change it to an uneven variable.
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ### Evaluating a model
+
+We have evaluated the logistic regression model with the other machine learning models the group members have made. 
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
  
 ### Visualizing the outcome of a model (explanatory)
 
