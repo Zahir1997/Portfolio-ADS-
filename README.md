@@ -163,10 +163,13 @@ I have tweaked the cv parameter a bit to see if there are any changes in the tra
 
 We have evaluated the logistic regression model with the other machine learning models the group members have made. 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header  | Second Header | Third Header  |   
+| ------------- | ------------- | ------------- | 
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+
+
  
 ### Visualizing the outcome of a model (explanatory)
 
@@ -197,3 +200,6 @@ We have evaluated the logistic regression model with the other machine learning 
 ### Writing paper
 
 ## List of Notebooks 
+
+
+
