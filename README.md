@@ -1,8 +1,9 @@
 # Portfolio Zahir Bholai 19126778 Applied Data Science
-Lecturers: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
+Docenten: Tony Andrioli, Raymond Hoogendoorn, Ruud Vermeij and Jeroen Vuurens
 
 ## Introduction
-This is the personal portfolio of a public administration student following the minor Applied Data Science. A challenging yet insightful minor for everyone who is interested in the world of data science.   
+Dit is de portfolio van een bestuurskundestudent die de minor Applied Data Science gevolgd heeft. Een uitdagende en leuke minor voor iedereen die geïnteresseerd is in de wereld van data science.
+
 
 ## Datacamp Courses
 ![Datacamp](Images/Datacamp.PNG)
@@ -10,96 +11,122 @@ This is the personal portfolio of a public administration student following the 
 ## Reflection and evaluation
 
 ### Reflection on own contribution to the project.
-Situation:
+#### Situation
 
-The Smart Teddy Project was the first data science project I participated in. I have positive memories of the project group I participated in. From day 1 we started of the project by exchanging socials and discussing ways to keep track of the project. Since my major is public administration (Bestuurskunde/Overheidsmanagement) I was a bit worried about my contribution to the project. I had moments at the beginning of the minor where I questioned myself if I am capable of completing this minor. But by staying motivated, asking questions and the will to learn I have managed to make contributions to the project. 
+De Smart Teddy Project was het eerste data science project waarin ik aan deelgenomen heb. Ik heb positieve herinneringen over het project. Vanaf dag 1 waren we begonnen met het project door de communicatiekanaal te bepalen en te kijken hoe we het project bij gaan houden.  Aangezien ik een bestuurskundestudent ben, was ik bezorgd of ik wel een bijdrage voor het project zou kunnen leveren. Ik had in het begin vooral momenten in de minor waar ik aan mezelf begon te twijfelen of ik op de goede plek zat. Echter door gemotiveerd te blijven, vragen te stellen en de wil om te leren heb ik ervoor gezorgd dat ik een bijdrage aan het project heb geleverd.
 
-Task:
+#### Task
 
-One of the challenging contribution I had was to classify and evaluate positive and negative emotions for the machine learning models and CNN model we had made. I had to preprocess the emotions through speech audio from the datasets in to a positive and negative classification. Then I had to run it with the machine learning models we had made. After the runs I had to evaluate the results of the positive and negative classification. The contributions I had made were in the beginning more towards the research part of the project. But when I got familiar with programming I have made some contributions towards the technical part of the project.
+Één van de uitdagende bijdrage waaraan ik gewerkt heb was het classificeren en evalueren van positieve en negatieve emoties voor de machine learning modellen en CNN model. Allereerst moest ik de emoties uitgedrukt in spraakaudio in positieve, neutraal en negatief classificeren. Vervolgens moest ik de classificatie in de machine learning modellen runnen. Nadat het gerund was moest ik de resultaten van de classificatie evalueren. De bijdragen die ik gemaakt heb waren in het begin op het onderzoekende deel van het project gericht. In de loop van de minor leerde ik programmeren waardoor ik ook wat bijdragen aan de technische deel van het project geleverd heb.
 
-Action:
+#### Action
 
-By asking questions at the daily stand-ups and sharing my screen with the project members to ask for help. Websites like StackOverflow and TowardsDataScience were also helpful to gain information about the contributions I worked on. 
+Door vragen te stellen bij de daily stand-ups en mijn scherm te delen als ik ergens tegenaan liep. Websites als StackOverflow en TowardsDatascience waren ook nuttig om informatie te krijgen over de bijdragen waaraan ik gewerkt heb.
 
-Result:
+#### Result
 
-I am happy with the results we accomplished. The group as whole were helpful towards each other. If someone was having a hard time with the contribution he was working on, a project member jumped in to help. At the end of the day the challenging contribution I faced had come to a success.
+Ik ben tevreden over de resultaten die we geboekt hebben. De projectleden waren behulpzaam tegen elkaar. Als iemand tegen iets aanliep, sprong een projectlid erbij om degene te helpen. De uitdagende bijdrage waaraan ik gewerkt heb is met goed gevolg afgesloten.
 
-Reflection:
+#### Reflection
 
-The lesson I have learned was to always be open about the progress you made. Four project members are studying software engineer and got much more experience than I do in the field of computer sciences. Since I am aware that my programming skills are not so well-polished as the four project members I had to ask for help at some moments when things aren’t going that well. But when I shared my screen and was looking with a project member together I got some helpful feedback to get the job done. Openness about the work you are doing was the key factor to made your contribution to the project a success.
+De les dat ik geleerd heb is om altijd transparant te over de progressie die je geboekt heb. Vier projectleden studeren software engineering en hebben meer ervaring op het gebied van computerwetenschappen dan ik. Daarbij ben ik ervan bewust dat mijn programmeervaardigheden niet zo sterk zijn als de vier projectleden die software engineering studeren. Op sommige momenten liep ik vast en moest ik om hulp vragen. Door mijn scherm te delen en nuttige feedback te ontvangen heb ik ervoor gezorgd om mijn bijdrage tot een goed einde te brengen. Transparantie over je werkzaamheden was een sleutelfactor om je bijdrage aan het project tot een succes te maken.
 
 
 ### Reflection on own learning objectives.
-Situation:
+#### Situation
 
-There was a reason why me, a public administration student had chosen this minor. I wanted to dive in the world of data science so I can implement the tools and methods that i am going to learn in my future career at the public sector. I have set up some learning objectives in the minor. These learning objectives I wanted to be able to do at the end of the minor.
+Er was een reden waarom ik, een bestuurskundestudent voor deze minor gekozen had. Ik wilde de wereld van data science verkennen zodat ik de hulpmiddelen en methoden van de minor later in mijn carrière in de publieke sector kan toepassen. Ik had daarbij voor mezelf leerdoelen gesteld. Deze leerdoelen wilde ik aan de eind van de minor kunnen beheersen.
 
-Task:
+#### Task
 
-The learning objectives what I wanted to learn are the following:
-1.	I want to learn the basics of python 
-2.	I want to learn how to implement a working machine learning model on a dataset
-3.	I want to increase my research capabilities by learning more about visualization
-4.	I want to learn how to implement a working neural network on a dataset
+De leerdoelen die ik voor mezelf gesteld had zijn de volgende:
 
-Action:
+1.	Ik wil de basis van python leren
+2.	Ik wil leren hoe je een werkende machine learning model op een dataset kan toepassen
+3.	Ik wil mijn onderzoeksvaardigheden uitbreiden door meer te leren over visualisatie
+4.	Ik wil leren hoe je een werkende neuraal netwerk model op een dataset kan toepassen.
 
-To reach the learning objectives I have set myself I did the following:
 
-As a public administration student I didn’t know any programming languages. I was determined at the start of the minor to learn myself the basics of python since it was the programming language the minor was using. 
-I learned about machine learning models at DataCamp and the lectures from Jeroen Vuurens.
-I wanted to increase my research capabilities by learning more about data visualization. The workshops of Tony Andrioli were helpful in that matter. The do’s and don’t of data visualization were helpful. 
-To implement a working neural network I have followed the lectures of Jeroen Vuurens. 
+#### Action
 
-Result:
+Om de gestelde leerdoelen te behalen heb ik het volgende gedaan:
 
-I have given whatever it takes to fulfill my learning objectives and with success. The learning objectives I have set have all been addressed in the minor. For learning the basics of python I have achieved 100% completion of the courses from DataCamp. For implementing machine learning models on datasets I have trained various machine learning models such as a SVM,  a linear regression model and a decisiontreeclassifier on various dataset from sklearn and Kaggle. I have learned about the python package Matplotlib.pyplot to create visualizations from data. Matplotlib.pyplot is something I am taking with me for the rest of my study career and future career. And for the neural network learning objective I have implemented a feed forward neural network and a convolutional network on the MNIST dataset.
+Als een bestuurskundestudent had ik geen kennis over programmeertalen. Ik was vastberaden om aan het begin van de minor de basis van python te leren. Het was immers de programmeertaal die de minor hanteerde.
 
-Reflection:
+Over machine learning modellen en hoe je het kan implementeren heb ik voornamelijk uit de courses van DataCamp en de hoorcolleges van Jeroen Vuurens geleerd.
 
-I am satisfied with the results I have achieved in such short notice. I came to this minor with zero knowledge about python, machine learning models, neural networks and data visualization techniques. During this minor I have given whatever it takes to complete my learning objectives. I realized that I am not done learning yet. I am going to keep  training my data science skills.
+Ik wilde mijn onderzoeksvaardigheden uitbreiden door meer te leren over het visualiseren van data. De workshop van Tony Andioli over datavisualisatie waren op dit punt behulpzaam. De do’s en don’ts van het visualiseren van data waren nuttig en is iets wat ik zeker nog in de toekomst baat bij zal hebben.
+
+Over neurale netwerken en hoe je het kan implementeren heb ik voornamelijk geleerd uit de hoorcolleges van Jeroen Vuurens en informatie van internet.
+
+
+#### Result
+
+Ik heb alles gedaan om mijn leerdoelen tot een succes te brengen. 
+Het gevolg is dat ik de gestelde leerdoelen behaald heb. 
+
+Voor het leren van de basis van python heb ik de DataCamp cursussen 100% voltooid. 
+
+Voor het implementeren van een machine learning model op een dataset heb ik verschillende machine learning modellen zoals een SVM, lineaire regressie model en een decisiontreeclassifier op diverse datasets van sklearn en Kaggle toegepast. 
+
+Voor het uitbreiden van mijn onderzoeksvaardigeden door te leren over visualisatie heb ik geleerd over de python package matplotlib.pyplot. Matplotlib.pyplot is een handige hulpmiddel om visualisaties van data te maken en is daarbij zeker een onderdeel wat ik voor het vervolg van mijn studieloopbaan en toekomstige carrière ga gebruiken. 
+
+Voor het implementeren van een werkende neuraal netwerk op een dataset heb ik eerst een feed forward neural network en daarna een convolutional neural network op de MNIST dataset toegepast.
+
+
+#### Reflection
+
+Ik ben tevreden met de resultaten die ik in korte tijd geboekt heb. Ik kwam naar deze minor met nul kennis over python, machine learning modellen, neurale netwerken en data visualisatie technieken. Gedurende minor heb ik alles gegeven om mijn leerdoelen te voltooien. Ik ben tot de realisatie gekomen dat ik niet klaar ben met leren. Ik zal mijn data science skills door blijven trainen door meer te leren.   
 
 ### Evaluation on the group project as a whole.
-Situation:
+#### Situation
 
-The group I participated in consist of six members including me in total. Four group members are studying software engineering and one student is studying business administration. We were all students that had to finish a minor to enter the graduation phases of our studies.  
+De projectgroep waar ik deel van uitmaakte had in totaal zes projectleden. Vier projectleden studeren software engineering en één projectlid studeert bedrijfskunde. We zijn allemaal studenten die een minor moeten afronden om de afstudeerfase van de opleiding te betreden. 
 
-Task:
+#### Task
 
-Every group member was motivated to complete the minor. From day 1 we started with the planning of the project. Communication with the group was also excellent. From day 1 we decided what social platform we are going to use to communicate. One software engineer student is also a teacher at The Hague University of Applied Sciences so he made sure that classrooms were reserved when we are meeting at school. Another software engineer student was the scrum master of the project. He held the overview of the project and organized the daily standups, refinements and retrospectives. Everybody did their contributions to the project in the form of user stories in GitHub.
+Elk projectlid was gemotiveerd om de minor te voltooien. Vanaf dag 1 waren we begonnen met de planning van het project. Communicatie tussen de projectleden verliep goed. Vanaf dag 1 hadden we de communicatiekanaal vastgesteld die we als communicatiemiddel zouden gebruiken. Een projectlid is tevens leraar bij De Haagse Hogeschool. Hij zorgde ervoor dat lokalen gereserveerd waren zodat we de meetings met docenten konden houden. Tijdens de meetings met docenten zorgde ik ervoor dat er notities van de belangrijke punten gemaakt werden. Een ander student was de scrum master van de het project. Hij hield het overzicht van het project en organiseerde de daily stand-ups, wekelijkse refinements en tweewekelijkse retrospectives aan het eind van de sprint. Iedereen had zicht op het werk van een ander doordat de bijdragen van het project in zogeheten user stories op GitHub genoteerd waren.
 
-Action:
+#### Action
 
-In some scenarios we would work all focus on one thing. Take for example the literature research, in the beginning of the project we have researched and discussed various papers to gain domain knowledge. In some scenarios we would work independently on our contributions. Take for example  writing the research proposal me and the business administration student worked on. In some scenarios we would be pair programming. For example, me and Jaap would be working together to train and evaluate a logistic regression model. When a group member was stuck on a contribution, another group member would jump in to help. We all were eager to get the job done even when we faced setbacks. When we faced setbacks we would discuss them on school to brainstorm for a solution. The lecturers were also helpful to guide us when we faced setbacks.
+Op sommige momenten waren we allemaal gefocust op één onderdeel. Bijvoorbeeld het literatuuronderzoek. In het begin van het project hebben we diverse papers gelezen en besproken om domeinkennis op te doen. 
 
-Result:
+Op andere momenten waren we zelfstandig aan het werk aan onze bijdragen. De research proposal die ik en de bedrijfskundestudent geschreven heb is daar een voorbeeld van. 
+Ook deden we aan pair programming. Ik en projectlid Jaap gingen bijvoorbeeld samen een logistic regression model trainen en evalueren. 
 
-I am happy with the results we have accomplished. The group members were motivated from start to finish of the project and that shows in the final result. Everybody had made a contribution to the project.
+We waren allemaal vastberaden om het project tot een goed einde te brengen. Zodra we tegenslagen tegemoet kwamen, gingen we het op school bespreken om tot een oplossing te komen. De docenten waren ook bereid om te helpen wanneer we tegenslagen tegemoet kwamen.
 
-Reflection:
 
-I have enjoyed my first data science project with the group I was in. Everybody did what they had to do and was open about it by giving a heads-up during the daily stand-ups. After the sprint we had a retrospective where we would discuss the good aspects of the current sprint, bad aspects of the current sprint and action points for the next sprint. I enjoyed this structured way of working. 
+#### Result
+
+Ik ben tevreden met resultaat die we geboekt hebben. De projectgroep waren van begin tot eind gemotiveerd om het project tot een goed einde te brengen. Dit is te merken in het eindresultaat van het project.
+
+#### Reflection
+
+Ik heb met plezier aan mijn eerste data science project gewerkt. Dit komt mede door de positieve ervaringen dat ik in de groep heb meegemaakt. Iedereen heeft gedaan wat hij moest doen en was transparant daarin door het te vermelden in de daily stand-ups. Na de sprint hadden we een moment genaamd de retrospective waarbij we de goede aspecten, minder goede aspecten en actiepunten van de sprint bespraken. Deze structuur van werken beviel mij.
   
 ## Research Project
 
 ### Task Definition
-The Smart Teddy is a therapeutic companion with a very basic functionality. It can bark and move its tail if someone interacts with it. It is soft and cuddly to invite people to grab and hug it. Seniors can keep the Smart Teddy as a long term companion. Like a real pet, the Smart Teddy observes the senior citizen using its sensors. It has a digital brain that allows it to understand what the senior does during the day and estimates how much the senior citizen is enjoying his/her time. Teddy can also check whether the senior is having enough sleep and how often they wake up during the night. From all this information, Teddy tries to make an educated guess about the QoL of the senior, and inform their family or caregivers about their condition. 
+De Smart Teddy is een therapeutische metgezel met basisfunctionaliteiten. Het kan geluid maken en bewegen als iemand hem aanraakt. Het is zacht en schattig zodat mensen het vast kunnen pakken en  kunnen knuffelen. Senioren kunnen de Smart Teddy op lange termijn gebruiken. Net als een huisdier observeert de Smart Teddy  senioren. Dit wordt gedaan d.m.v. sensoren. Het heeft een digitale brein dat ervoor zorgt dat het de senior gedurende dag begrijpt. Op basis hiervan maakt hij een schatting over de tijd dat de senior gelukkig is. De Smart Teddy kan ook controleren of de senior genoeg slaap krijgt en wanneer de senior in de nacht wakker wordt. Van deze informatie maakt de Smart Teddy een weloverwogen schatting over de kwaliteit van het leven van de senior. Dit wordt gebruikt om familie en verzorgers te informeren. Dee Smart Teddy wordt gebruikt voor senioren die kampen met dementie.
 
-The Smart Teddy project were split into three groups in this minor, one group worked on detecting eating and drinking sounds and another group worked on detecting dialogue in the room. Our research group was assigned to work on the emotions part of this whole project led by dr. Hani Al – Ers. The end goal of our assigned project was to detect and classify emotions the dementia patient was showing. After discussing with our product owner and lectureres we had come up with the following main research question:
+De Smart Teddy Project was gesplitst in drie groepen in de minor. Een groep werkte aan het detecteren van eet- en drinkgeluiden. Een ander groep werkte aan het detecteren van dialoog in de kamer. Ons projectgroep werkte aan het detecteren van emoties. De einddoel van ons project was het detecteren en classificeren van emoties. De Smart Teddy Project werd geleid door dr. Hani Al-Ers. De groep is tot de volgende hoofdvraag gekomen:
+
 
 Which machine learning models achieve the highest precision classifying emotions, using (two) datasets containing audio with labeled vocal emotional expressions recorded in a professional recording studio, in order to recognize emotions within household environments?
 
-More information about the main research question will be covered in the research proposal sub-chapter.
+De machine learning models stukje in de hoofdvraag is niet meer van toepassing aangezien de research paper alleen de focus legt op de convolutional neural network en niet op de machine learning modellen die gebouwd zijn.
+
+Meer informatie over de hoofdvraag zal in de sub-paragraaf research proposal behandeld worden.
 
 #### Research proposal
-The research proposal was written by myself and project member Breno van Tricht. We have written the research propsal to get a clear view of the research we are going to conduct and it also has been of aid at writing the research paper. The reason that the research main question was chosen, was because the research group were investigating the current methods of classifying emotions from audio data. After investigating these methods the research group make a choice for the best looking model and will train it on the emotion-labelled datasets that we have found. Aiming for the highest precision was chosen because the end use involves mental health regarding dementia which must be handled with care. It's unacceptable to have a lot of false positives because the teddy bear is used as an advisor and the professionals can decide how to respond to this. It is better to be certain of an emotion than to misclassify an emotion. The emotions detected and shown are an indication of how the patient is feeling and if he is capable of living on his own. 
-The scope of the research, sub-questions, evaluation method, and related work are also covered in the 
-[research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p).
+De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal ook geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven.
+
+De scope van het onderzoek, deelvragen, evaluatiemethode en gerelateerde werk zijn ook in de 
+[research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p) behandeld.
 
 #### Notes
-Every week the research group had meetings with lectureres and the product owner. New ideas and feedback are some of the many things that are discussed at the meetings. At these meetings I functioned as a note taker to have the topics that are discussed written down so that the research group won't forget it. The [notes](https://docs.google.com/document/d/1xQncillbnLcRF8wKagUnnbbejlcOvx4zWCJvwhQ0PGc/edit#) are here.
+Elke week had de projectgroep meetings met docenten en de producteigenaar. Nieuwe ideeën en feedback zijn onderwerpen dat tijdens de meetings naar voren kwamen. Bij deze meetings functioneerde ik als notulist waarbij ik notities maakte van de belangrijke punten dat er tijdens de meetings besproken werden. De [notities](https://docs.google.com/document/d/1xQncillbnLcRF8wKagUnnbbejlcOvx4zWCJvwhQ0PGc/edit#) zijn hier.
 
 
 ### Evaluation
@@ -111,12 +138,10 @@ Every week the research group had meetings with lectureres and the product owner
 ## Predictive Analytics
 
 ### Selecting a Model
-
-The machine learning models the group have worked on to make predictions are: SVM, logistic regression, multi-layered perceptron and a KNN model.
-Me and Jaap have worked on a logistic regression model to make predictions. Since we didn't have acces to real world data for the project we used datasets containing vocal audio samples spoken in different emotions. We have chosen this model because in our literature study we came across a [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) that used a logistic regression model to make predictions on one of the datasets (RAVDESS) we are using. We were interested in what the results would be for both datasets we used. We have used the RAVDESS and CREMA-D datasets  
+De machine learning modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft. Het onderzoek heeft de RAVDESS dataset gebruikt. Wij hebben er voor gekozen om de RAVDESS en CREMA-D datasets te gebruiken.
 
 ### Configuring a Model
-For the configuration of the logistic regression model we have used all hyperparameters that we could [find](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
+Voor de configuratie van de logistic regression model hebben we alle hyperparameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
     
     class LogisticalRegression(BaseModel):
     instance = "Logistical Regression"
@@ -132,7 +157,7 @@ For the configuration of the logistic regression model we have used all hyperpar
 
 ### Training a model
 
-To prevent to model for overfitting and underfitting we have used GridSearchCV. What GridsearchCV basically does is to find the best hyperparameters for you to fit it a model you are using. That is the reason why we have chosen all hyperparameters from the logistic regression model since GridsearchCV will search for the best hyperparameters the model has to offer.
+Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV zoekt de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle hyperparameters in ons model gezet hebben.
 
         start_time = time.perf_counter()
         clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
@@ -152,7 +177,8 @@ To prevent to model for overfitting and underfitting we have used GridSearchCV. 
 
         super().model_accuracy(clf, x_train, x_test, y_train, y_test)
         
-I have tweaked the cv parameter a bit to see if there are any changes in the train and test accuracy. I have noticed that there is a minimal positive change in train and test accuracy when you change the cv parameter to an even variable and a minimal negative change when you change it to an uneven variable.
+Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse variabeleb enig verschil is in de test en train accuracy. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
+
 
 | First Header  | Second Header |
 | ------------- | ------------- |
