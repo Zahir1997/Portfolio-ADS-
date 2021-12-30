@@ -91,7 +91,7 @@ Elk projectlid was gemotiveerd om de minor te voltooien. Vanaf dag 1 waren we be
 
 Op sommige momenten waren we allemaal gefocust op één onderdeel. Bijvoorbeeld het literatuuronderzoek. In het begin van het project hebben we diverse papers gelezen en besproken om domeinkennis op te doen. 
 
-Op andere momenten waren we zelfstandig aan het werk aan onze bijdragen. De research proposal die ik en de bedrijfskundestudent geschreven heb is daar een voorbeeld van. 
+Op andere momenten waren we zelfstandig aan het werk aan onze bijdragen. De research proposal die ik en projectlid Breno geschreven hebben is daar een voorbeeld van. 
 Ook deden we aan pair programming. Ik en projectlid Jaap gingen bijvoorbeeld samen een logistic regression model trainen en evalueren. 
 
 We waren allemaal vastberaden om het project tot een goed einde te brengen. Zodra we tegenslagen tegemoet kwamen, gingen we het op school bespreken om tot een oplossing te komen. De docenten waren ook bereid om te helpen wanneer we tegenslagen tegemoet kwamen.
@@ -108,21 +108,23 @@ Ik heb met plezier aan mijn eerste data science project gewerkt. Dit komt mede d
 ## Research Project
 
 ### Task Definition
-De Smart Teddy is een therapeutische metgezel met basisfunctionaliteiten. Het kan geluid maken en bewegen als iemand hem aanraakt. Het is zacht en schattig zodat mensen het vast kunnen pakken en  kunnen knuffelen. Senioren kunnen de Smart Teddy op lange termijn gebruiken. Net als een huisdier observeert de Smart Teddy  senioren. Dit wordt gedaan d.m.v. sensoren. Het heeft een digitale brein dat ervoor zorgt dat het de senior gedurende dag begrijpt. Op basis hiervan maakt hij een schatting over de tijd dat de senior gelukkig is. De Smart Teddy kan ook controleren of de senior genoeg slaap krijgt en wanneer de senior in de nacht wakker wordt. Van deze informatie maakt de Smart Teddy een weloverwogen schatting over de kwaliteit van het leven van de senior. Dit wordt gebruikt om familie en verzorgers te informeren. Dee Smart Teddy wordt gebruikt voor senioren die kampen met dementie.
+De Smart Teddy is een therapeutische metgezel met basisfunctionaliteiten. Het kan geluid maken en bewegen als iemand hem aanraakt. Het is zacht en schattig zodat mensen het vast kunnen pakken en  kunnen knuffelen. Senioren kunnen de Smart Teddy op lange termijn gebruiken. Net als een huisdier observeert de Smart Teddy  senioren. Dit wordt gedaan d.m.v. sensoren. Het heeft een digitale brein dat ervoor zorgt dat de Smart Teddy de senior gedurende dag begrijpt. Op basis hiervan maakt het een schatting over de tijd waarin de senior gelukkig is. De Smart Teddy kan ook controleren of de senior genoeg slaap krijgt en wanneer de senior in de nacht wakker wordt. Van deze informatie maakt de Smart Teddy een weloverwogen schatting over de kwaliteit van het leven van de senior. Dit wordt gebruikt om familie en verzorgers te informeren. De Smart Teddy wordt gebruikt voor senioren die kampen met dementie.
 
-De Smart Teddy Project was gesplitst in drie groepen in de minor. Een groep werkte aan het detecteren van eet- en drinkgeluiden. Een ander groep werkte aan het detecteren van dialoog in de kamer. Ons projectgroep werkte aan het detecteren van emoties. De einddoel van ons project was het detecteren en classificeren van emoties. De Smart Teddy Project werd geleid door dr. Hani Al-Ers. De groep is tot de volgende hoofdvraag gekomen:
+De Smart Teddy Project was gesplitst in drie groepen in de minor. Een groep werkte aan het detecteren van eet- en drinkgeluiden. Een ander groep werkte aan het detecteren van dialoog in de kamer. Ons projectgroep werkte aan het detecteren van emoties. De einddoel van ons project was het detecteren en classificeren van emoties. De Smart Teddy Project werd geleid door dr. Hani Al-Ers. 
+
+De groep is tot de volgende hoofdvraag gekomen:
 
 
-Which machine learning models achieve the highest precision classifying emotions, using (two) datasets containing audio with labeled vocal emotional expressions recorded in a professional recording studio, in order to recognize emotions within household environments?
+*Which machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labeled vocal emotional expressions recorded in a professional recording studio, in order to recognize emotions within household environments?*
 
 De machine learning models stukje in de hoofdvraag is niet meer van toepassing aangezien de research paper alleen de focus legt op de convolutional neural network en niet op de machine learning modellen die gebouwd zijn.
 
-Meer informatie over de hoofdvraag zal in de sub-paragraaf research proposal behandeld worden.
+Meer informatie over de richting van het onderzoek zal in de sub-paragraaf research proposal behandeld worden.
 
 #### Research proposal
-De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal ook geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven.
+De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal ook geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. De gebruikte datasets voor het onderzoek zijn: RAVDESS, CREMA-D, SAVEE en TESS. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven. Er is besloten om huishoudelijke omgevingsgeluiden aan de datasets toe te voegen om realistische scenarios na te bootsen. 
 
-De scope van het onderzoek, deelvragen, evaluatiemethode en gerelateerde werk zijn ook in de 
+De scope van het onderzoek, deelvragen en gerelateerde werk zijn ook in de 
 [research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p) behandeld.
 
 #### Notes
@@ -131,7 +133,21 @@ Elke week had de projectgroep meetings met docenten en de producteigenaar. Nieuw
 
 ### Evaluation
 
+In de minor zijn we tot de conclusie gekomen dat we niet goed genoeg tijd hadden om verder te experimenteren. In de toekomst kan het onderzoek op verschillende manieren opgepakt worden. 
+
+Allereerst kan het aantal neutrale samples in de dataset vergroot worden om te kijken of de precision van de neutrale emotie verbeterd wordt. Een gevolg hiervan is dat de datasets niet in balans is, maar er is een kans dat de precision van emoties angry, happy en sad verbeterd worden.
+
+Daarnaast kan er naast de vier gebruikte datasets meerdere datasets toegevoegd worden om te kijken of het impact op de precision heeft. De datasets dat toegevoegd kunnen worden zijn: eNTERFACE, EMO-DB, DES en SUSAS. 
+
+Wanneer er real world data beschikbaar is, kan er getest worden om langere samples. 
+Emoties zijn vaak uitgedrukt in meerdere zinnen. 
+
+Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden.
+
+Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoegd of verwijderd worden. Hiermee te experimenteren kan de precision van de model wellicht verbeterd worden.
+
 ### Conclusions
+
 
 ### Planning
 
