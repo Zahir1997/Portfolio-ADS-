@@ -136,14 +136,10 @@ Elke week had de projectgroep meetings met docenten en de producteigenaar. Nieuw
 In de toekomst kan het onderzoek op verschillende manieren verder opgepakt worden. 
 
 Allereerst kan het aantal neutrale samples in de dataset vergroot worden om te kijken of de precision van de neutrale emotie verbeterd wordt. Een gevolg hiervan is dat de datasets niet in balans is, maar er is een kans dat de precision van emoties angry, happy en sad verbeterd worden.
-
 Daarnaast kan er naast de vier gebruikte datasets meerdere datasets toegevoegd worden om te kijken of het impact op de precision heeft. De datasets dat toegevoegd kunnen worden zijn: eNTERFACE, EMO-DB, DES en SUSAS. 
-
 Wanneer er real world data beschikbaar is, kan er getest worden om langere samples. 
 Emoties zijn vaak uitgedrukt in meerdere zinnen. 
-
 Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden.
-
 Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoegd of verwijderd worden. Hiermee te experimenteren kan de precision van de model wellicht verbeterd worden.
 
 ### Conclusions
