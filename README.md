@@ -117,12 +117,12 @@ De groep is tot de volgende hoofdvraag gekomen:
 
 *Which machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labeled vocal emotional expressions recorded in a professional recording studio, in order to recognize emotions within household environments?*
 
-De machine learning models stukje in de hoofdvraag is niet meer van toepassing aangezien de research paper alleen de focus legt op de convolutional neural network en niet op de machine learning modellen die gebouwd zijn.
+De machine learning models in de hoofdvraag is niet meer van toepassing aangezien de research paper alleen de focus legt op de convolutional neural network en niet op de machine learning modellen die gebouwd zijn.
 
 Meer informatie over de richting van het onderzoek zal in de sub-paragraaf research proposal behandeld worden.
 
 #### Research proposal
-De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal ook geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. De gebruikte datasets voor het onderzoek zijn: RAVDESS, CREMA-D, SAVEE en TESS. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven. Er is besloten om huishoudelijke omgevingsgeluiden aan de datasets toe te voegen om realistische scenarios na te bootsen. 
+De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven. Er is besloten om huishoudelijke omgevingsgeluiden aan de datasets toe te voegen om realistische scenarios na te bootsen. 
 
 De scope van het onderzoek, deelvragen en gerelateerde werk zijn ook in de 
 [research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p) behandeld.
@@ -133,7 +133,7 @@ Elke week had de projectgroep meetings met docenten en de producteigenaar. Nieuw
 
 ### Evaluation
 
-In de minor zijn we tot de conclusie gekomen dat we niet goed genoeg tijd hadden om verder te experimenteren. In de toekomst kan het onderzoek op verschillende manieren opgepakt worden. 
+In de toekomst kan het onderzoek op verschillende manieren verder opgepakt worden. 
 
 Allereerst kan het aantal neutrale samples in de dataset vergroot worden om te kijken of de precision van de neutrale emotie verbeterd wordt. Een gevolg hiervan is dat de datasets niet in balans is, maar er is een kans dat de precision van emoties angry, happy en sad verbeterd worden.
 
@@ -148,6 +148,7 @@ Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoeg
 
 ### Conclusions
 
+Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio van acteurs die emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. Er werd zodoende een dataset met veel samples gemaakt die aan de convolutional neural network gegeven werd. De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 87%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 84%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
 
 ### Planning
 
