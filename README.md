@@ -174,7 +174,7 @@ De projectgroep werkte in het begin van het project in wekelijkse sprint. In de 
 Iedere dag werd er een daily stand-up gehouden. In de daily-stand-up werd er besproken wat ieder projectlid de vorige dag gedaan heeft, waar hij eventueel tegenaan gelopen is en wat er op de huidige dag gedaan gaat worden. De daily-stand-up gaf zodoende inzicht in de werkzaamheden van een projectlid.
 
 #### Refinement
-In de tweewekelijkse sprint werd er na de eerste week een refinement gehouden. In de refinement werd er de roadmap gebruikt die door de scrummaster en projectlid Koen opgezet is. De roadmap is gemaakt in Miro. De roadmap gaf inzicht in hoe we ervoor staan. De projectgroep kreeg daarnaast inzicht of de projectwerkzaamheden op de juiste tempo gedaan werd. 
+In de tweewekelijkse sprint werd er na de eerste week een refinement gehouden. In de refinement werd er de roadmap gebruikt die door de scrummaster en projectlid Koen opgezet zijn. De roadmap is gemaakt in Miro. De roadmap gaf inzicht in hoe we ervoor staan. De projectgroep kreeg daarnaast inzicht of de projectwerkzaamheden op de juiste tempo gedaan werd. In de refinement werd er door de projectgroep besproken of er iets aan de roadmap aangepast moest worden. 
 
 De roadmap:
 
@@ -274,6 +274,13 @@ We have evaluated the logistic regression model with the other machine learning 
 ## Communications
 
 ### Presentations
+De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presentaties werd er in de groep besproken wie het zou willen presenteren. Ik vond het presenteren van de externe presentaties wel leuk, dus vandaar dat ik bij alle presentaties een deel gepresenteerd heb. Daarnaast heb ik ook een deel van de learning lab gepresenteerd.
+
+[Externe presentatie 1](https://docs.google.com/presentation/d/120BFmn1kBqO9vJkrTBqgGG3YLxwpwIQ5/edit)
+[Externe presentatie 2](https://docs.google.com/presentation/d/1Q8pCSaHh-NOdmONjhDi91h5KIwgagx26fTpmsYayNGw/edit)
+[Externe presentatie 3](https://docs.google.com/presentation/d/1zTva9BPbiWAARs8vM3S7Wy0qXT1pBUMSoa-8i74HjZQ/edit)
+
+[Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
 
 ### Writing paper
 
