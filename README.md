@@ -277,7 +277,9 @@ We have evaluated the logistic regression model with the other machine learning 
 De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presentaties werd er in de groep besproken wie het zou willen presenteren. Ik vond het presenteren van de externe presentaties wel leuk, dus vandaar dat ik bij alle presentaties een deel gepresenteerd heb. Daarnaast heb ik ook een deel van de learning lab gepresenteerd.
 
 [Externe presentatie 1](https://docs.google.com/presentation/d/120BFmn1kBqO9vJkrTBqgGG3YLxwpwIQ5/edit)
+
 [Externe presentatie 2](https://docs.google.com/presentation/d/1Q8pCSaHh-NOdmONjhDi91h5KIwgagx26fTpmsYayNGw/edit)
+
 [Externe presentatie 3](https://docs.google.com/presentation/d/1zTva9BPbiWAARs8vM3S7Wy0qXT1pBUMSoa-8i74HjZQ/edit)
 
 [Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
