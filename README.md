@@ -185,7 +185,7 @@ De retrospective werd aan het eind van een sprint gehouden. De retrospective wer
 
 Een retrospective dat gehouden werd in sprint 6:
 
-![Retrospective](Images/Retrospective.jpg)
+
 
 ## Predictive Analytics
 
