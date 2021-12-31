@@ -249,8 +249,8 @@ De logistic regression model is geëvalueerd met de machine learning modellen di
 
 -|Logistic Regression  | SVM | KNN  | MLP|
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Train | Content Cell  | Content Cell  |-|-|
-| Test | Content Cell  | Content Cell  |-|-|
+| - | -  | -  |-|-|
+| - | -  | - |-|-|
 
 
 ### Visualizing the outcome of a model (explanatory)
