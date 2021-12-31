@@ -167,14 +167,17 @@ De User Stories dat aan mij in chronologische volgorde toegewezen zijn:
 
 
 
-
-
 #### Sprint
 De projectgroep werkte in het begin van het project in wekelijkse sprint. In de loop van het project is de projectgroep overgegaan naar tweewekelijkse sprint, omdat de User Stories van het project breder en complexer werd.
 
 #### Daily Stand-ups
+Iedere dag werd er een daily stand-up gehouden. In de daily-stand-up werd er besproken wat ieder projectlid de vorige dag gedaan heeft, waar hij eventueel tegenaan gelopen is en wat er op de huidige dag gedaan gaat worden. De daily-stand-up gaf zodoende inzicht in de werkzaamheden van een projectlid.
 
 #### Refinement
+In de tweewekelijkse sprint werd er na de eerste week een refinement gehouden. In de refinement werd er de roadmap gebruikt die door de scrummaster en projectlid Koen opgezet is. De roadmap is gemaakt in Miro. De roadmap gaf inzicht in hoe we ervoor staan. De projectgroep kreeg daarnaast inzicht of de projectwerkzaamheden op de juiste tempo gedaan werd. 
+
+De roadmap:
+
 
 #### Retrospective
 
