@@ -181,6 +181,9 @@ De roadmap:
 ![Roadmap](Images/Roadmap.jpg)
 
 #### Retrospective
+De retrospective werd aan het eind van een sprint gehouden. De retrospective werd georganiseerd door de scrummaster via Fraankly.  In de retrospective kreeg ieder projectlid de mogelijkheid om de goede aspecten, minder goede aspecten en veranderpunten voor de volgende sprint op te schrijven. Zodra ieder projectlid zijn deel opgeschreven had, werd er door ieder projectlid een korte presentatie gegeven over de onderdelen die hij opgeschreven had. Na de presentaties vond er een stemronde plaats over de onderdelen die ieder projectlid het belangrijkst acht. Na de stemronde werd er een lijst met actiepunten gemaakt die voor de volgende sprint meegenomen werd.
+
+Een retrospective dat gehouden werd in sprint 6:
 
 
 ## Predictive Analytics
