@@ -17,7 +17,8 @@ De Smart Teddy Project was het eerste data science project waarin ik aan deelgen
 
 #### Task
 
-Één van de uitdagende bijdrage waaraan ik gewerkt heb was het classificeren en evalueren van positieve en negatieve emoties voor de machine learning modellen en CNN model. Allereerst moest ik de emoties uitgedrukt in spraakaudio in positief, neutraal en negatief classificeren. Vervolgens moest ik de classificatie in de machine learning modellen runnen. Nadat het gerund was moest ik de resultaten van de classificatie evalueren. De bijdragen die ik gemaakt heb waren in het begin op het onderzoekende deel van het project gericht. In de loop van de minor leerde ik programmeren waardoor ik ook wat bijdragen aan de technische deel van het project geleverd heb.
+Één van de uitdagende bijdrage waaraan ik gewerkt heb was het classificeren en evalueren van positieve en negatieve emoties voor de machine learning modellen en CNN model. Allereerst moest ik de emoties uitgedrukt in spraakaudio in positief, neutraal en negatief classificeren. Vervolgens moest ik de classificatie in de machine learning modellen runnen. Nadat het gerund was moest ik de resultaten van de classificatie evalueren. De bijdragen die ik gemaakt heb waren in het begin op het onderzoekende deel van het project gericht. In de loop van de minor leerde ik programmeren waardoor ik ook wat bijdragen aan de technische deel van het project geleverd heb.![UserStories3](https://user-images.githubusercontent.com/89922346/147827534-bf828f13-ba5b-430a-a526-9354f0bba208.jpg)
+
 
 #### Action
 
@@ -158,6 +159,11 @@ De Scrumboard van het project:
 
 De User Stories dat aan mij in chronologische volgorde toegewezen zijn:
 
+![UserStories1](Images/UserStories1.jpg)
+
+![UserStories2](Images/UserStories2.jpg)
+
+![UserStories3](Images/UserStories3.jpg)
 
 
 
