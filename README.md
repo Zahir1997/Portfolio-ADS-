@@ -17,7 +17,7 @@ De Smart Teddy Project was het eerste data science project waarin ik aan deelgen
 
 #### Task
 
-Één van de uitdagende bijdrage waaraan ik gewerkt heb was het classificeren en evalueren van positieve en negatieve emoties voor de machine learning modellen en CNN model. Allereerst moest ik de emoties uitgedrukt in spraakaudio in positief, neutraal en negatief classificeren. Vervolgens moest ik de classificatie in de machine learning modellen runnen. Nadat het gerund was moest ik de resultaten van de classificatie evalueren. De bijdragen die ik gemaakt heb waren in het begin op het onderzoekende deel van het project gericht. In de loop van de minor leerde ik programmeren waardoor ik ook wat bijdragen aan de technische deel van het project geleverd heb.![UserStories3](https://user-images.githubusercontent.com/89922346/147827534-bf828f13-ba5b-430a-a526-9354f0bba208.jpg)
+Één van de uitdagende bijdrage waaraan ik gewerkt heb was het classificeren en evalueren van positieve en negatieve emoties voor de machine learning modellen en CNN model. Allereerst moest ik de emoties uitgedrukt in spraakaudio in positief, neutraal en negatief classificeren. Vervolgens moest ik de classificatie in de machine learning modellen runnen. Nadat het gerund was moest ik de resultaten van de classificatie evalueren. De bijdragen die ik gemaakt heb waren in het begin op het onderzoekende deel van het project gericht. In de loop van de minor leerde ik programmeren waardoor ik ook wat bijdragen aan de technische deel van het project geleverd heb.
 
 
 #### Action
@@ -235,10 +235,13 @@ Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van 
 Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse variabeleb enig verschil is in de test en train accuracy. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| cv | Train CREMA-D | Test CREMA-D | Train RAVDESS  | Test RAVDESS | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| 3 | 0,55|0,52|0,67|0,63|
+| 4 | 0,55  | 0,52 | 0,71  | 0,63  |
+| 5 | 0,55 | 0,52 | 0,67 |0,63 |
+| 6  | 0.55|0,52|0,72|0,63|
+
 
 ### Evaluating a model
 
