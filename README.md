@@ -161,6 +161,10 @@ De User Stories dat aan mij in chronologische volgorde toegewezen zijn:
 
 ![UserStories1](Images/UserStories1.jpg)
 
+![UserStories2](Images/UserStories2.jpg)
+
+![UserStories3](Images/UserStories3.jpg)
+
 
 
 
