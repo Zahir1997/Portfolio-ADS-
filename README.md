@@ -232,7 +232,7 @@ Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van 
 
         super().model_accuracy(clf, x_train, x_test, y_train, y_test)
         
-Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse variabeleb enig verschil is in de test en train accuracy. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
+Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
 
 
 | cv | Train CREMA-D | Test CREMA-D | Train RAVDESS  | Test RAVDESS | 
@@ -245,7 +245,7 @@ Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse v
 
 ### Evaluating a model
 
-We have evaluated the logistic regression model with the other machine learning models the group members have made. 
+De logistic regression model is geëvalueerd met de machine learning modellen die de projectleden gemaakt hebben.
 
 -|Logistic Regression  | SVM | KNN  | MLP|
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
@@ -289,6 +289,7 @@ De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presen
 [Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
 
 ### Writing paper
+Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om de paper alinea voor alinea van de paper te behandelen.  
 
 ## List of Notebooks 
 
