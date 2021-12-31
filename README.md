@@ -178,6 +178,7 @@ In de tweewekelijkse sprint werd er na de eerste week een refinement gehouden. I
 
 De roadmap:
 
+![Roadmap](Images/Roadmap.jpg)
 
 #### Retrospective
 
