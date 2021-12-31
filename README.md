@@ -247,14 +247,12 @@ Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse v
 
 We have evaluated the logistic regression model with the other machine learning models the group members have made. 
 
-| First Header  | Second Header | Third Header  |   
-| ------------- | ------------- | ------------- | 
-| Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  |
+-|Logistic Regression  | SVM | KNN  | MLP|
+| ------------- | ------------- | ------------- | ------------- | ------------- | 
+| Train | Content Cell  | Content Cell  |-|-|
+| Test | Content Cell  | Content Cell  |-|-|
 
 
-
- 
 ### Visualizing the outcome of a model (explanatory)
 
 ## Domain knowledge
