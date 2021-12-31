@@ -147,6 +147,30 @@ Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoeg
 Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio samples van acteurs die diverse emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. Er werd zodoende een dataset met veel samples gemaakt die aan de convolutional neural network gegeven werd. De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 87%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 84%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
 
 ### Planning
+De planning van het project was onder handen genomen door projectlid/scrummaster Yuri. Hij was de persoon die de planning bewaakte. Daarbij zorgde hij ook voor de interne meetings om samen met de projectgroep naar de planning te kijken om stappen in het project te maken.
+
+#### GitHub
+GitHub was de website waar het project beheert werd. De repository was opgezet door projectlid Koen. Elk projectlid had via GitHub inzicht in de werkzaamheden van het project. De taken van het project werd verdeeld in zogeheten User Stories. Elk projectlid heeft een bijdrage aan het project geleverd door zijn toegewezen User Stories te voltooien.
+
+De Scrumboard van het project:
+
+![ScrumBoard](Images/ScrumBoard.jpg)
+
+De User Stories dat aan mij in chronologische volgorde toegewezen zijn:
+
+
+
+
+
+#### Sprint
+De projectgroep werkte in het begin van het project in wekelijkse sprint. In de loop van het project is de projectgroep overgegaan naar tweewekelijkse sprint, omdat de User Stories van het project breder en complexer werd.
+
+#### Daily Stand-ups
+
+#### Refinement
+
+#### Retrospective
+
 
 ## Predictive Analytics
 
