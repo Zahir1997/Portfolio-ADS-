@@ -252,7 +252,7 @@ De logistic regression model is geëvalueerd met de machine learning modellen di
 De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices.
 
 De confusion matrix van de logistic regression model:
-![LogisticRegression Confusion Matrix](Images/[LogisticRegression Confusion Matrix.png)
+![LogisticRegression Confusion Matrix](Images/LogisticRegression Confusion Matrix.png)
 
 
 ## Domain knowledge
