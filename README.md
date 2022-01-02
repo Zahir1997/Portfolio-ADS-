@@ -253,7 +253,7 @@ De uitkomsten van machine learning modellen waaronder de logistic regression mod
 
 De confusion matrix van de logistic regression model:
 
-![LR](Images/LogisticRegression Confusion Matrix.png)
+![LogisticRegression](Images/LogisticRegression.png)
 
 
 ## Domain knowledge
