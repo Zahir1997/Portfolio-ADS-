@@ -258,7 +258,7 @@ De confusion matrix van de logistic regression model:
 
 ## Domain knowledge
 
-Voor elk onderzoek heb je domeinkennis nodig voordat je stappen kan maken. Meetings met de product owner heeft geholpen om een betere beeld van het project te creëren. Daarnaast had de projectgroep in de beginfase van het project literatuuronderzoek verricht om meer kennis op te bouwen.
+Voor elk onderzoek heb je domeinkennis nodig voordat je stappen kan maken. Meetings met de product owner heeft geholpen om een betere beeld van het project te creëren. Daarnaast had de projectgroep in de beginfase van het project literatuuronderzoek verricht om meer domeinkennis op te bouwen.
 
 
 ### Introduction of the subject field
