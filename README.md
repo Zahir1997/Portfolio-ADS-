@@ -232,7 +232,7 @@ Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van 
 
         super().model_accuracy(clf, x_train, x_test, y_train, y_test)
         
-Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
+Ik heb gespeeld met de cv parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
 
 
 | cv | Train CREMA-D | Test CREMA-D | Train RAVDESS  | Test RAVDESS | 
@@ -245,15 +245,12 @@ Ik heb gespeeld met de cross-validation parameter om te zien of er bij diverse v
 
 ### Evaluating a model
 
-De logistic regression model is geëvalueerd met de machine learning modellen die de projectleden gemaakt hebben.
-
--|Logistic Regression  | SVM | KNN  | MLP|
-| ------------- | ------------- | ------------- | ------------- | ------------- | 
-| - | -  | -  |-|-|
-| - | -  | - |-|-|
-
+De logistic regression model is geëvalueerd met de machine learning modellen die de projectleden gemaakt hebben. De evaluatie van de modellen is [hier](https://docs.google.com/spreadsheets/d/1SGjHORuv2V7R-UGH_zaVUPe-bFol-A4_j-msHxtJBgM/edit#gid=0) te vinden.
 
 ### Visualizing the outcome of a model (explanatory)
+
+De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices.
+
 
 ## Domain knowledge
 
