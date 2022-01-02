@@ -249,14 +249,17 @@ De logistic regression model is geëvalueerd met de machine learning modellen di
 
 ### Visualizing the outcome of a model (explanatory)
 
-De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices.
+De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices. De reden dat confusion matrices zijn gekozen, is omdat de [paper]((https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147)) die gebruikt was als hulpmiddel ook gebruik maakte van confusion matrices. Daarnaast is confusion matrices handig voor het visualiseren van machine learning modellen die een classificatie (van emoties in dit geval) uitvoeren.
 
-De confusion matrix van de logistic regression model: (uitleg nog toevoegen)
+De confusion matrix van de logistic regression model:
 
 ![LogisticRegression](Images/LogisticRegression.png)
 
 
 ## Domain knowledge
+
+Voor elk onderzoek heb je domeinkennis nodig voordat je stappen kan maken. Meetings met de product owner heeft geholpen om een betere beeld van het project te creëren. Daarnaast had de projectgroep in de beginfase van het project literatuuronderzoek verricht om meer kennis op te bouwen.
+
 
 ### Introduction of the subject field
 
