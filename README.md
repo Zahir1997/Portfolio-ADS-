@@ -274,7 +274,7 @@ Om kennis over het detecteren en classificeren van emoties op te doen, zijn we a
 
 De papers dat ik heb doorgenomen zijn de volgende:
 
-![LiteratureResearch]()
+![LiteratureResearch](Domain Knowledge/LiteratureResearch.jpg)
 
 
 #### TRAINING SOUND EVENT DETECTION ON A HETEROGENEOUS DATASET
