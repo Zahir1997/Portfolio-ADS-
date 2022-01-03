@@ -270,6 +270,14 @@ De taak van de projectgroep was het detecteren en classificeren van emoties. De 
 
 ### Literature research
 
+Om kennis over het detecteren en classificeren van emoties op te doen, zijn we als projectgroep literatuuronderzoek gaan doen. Ieder projectlid ging relevante papers opzoeken. Vervolgens werd de paper in de daily-standup besproken. De papers met een paars vinkje zijn de papers die het meest relevant voor de groep werd gekenmerkt. Het was de taak van ieder projectlid om deze papers door te nemen.
+
+De papers dat ik heb doorgenomen zijn de volgende:
+
+Domain Knowledge/Literature Research.jpg
+
+
+
 ### Explanation of Terminology, jargon and definitions
 
 ## Data preprocessing
