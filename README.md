@@ -262,6 +262,11 @@ Voor elk onderzoek heb je domeinkennis nodig voordat je stappen in het project k
 
 ### Introduction of the subject field
 
+De Smart Teddy is een project onder leiding van Dr. Hani al-Ers van De Haagse Hogeschool. De Smart Teddy is een teddybeer die als een therapeutisch metgezel fungeert. De doelgroep van de Smart Teddy is senioren die in de beginfase van dementie zitten. 
+
+De Smart Teddy heeft een aantal functionaliteiten. De Smart Teddy observeert de senioren door gebruik te maken van sensoren. Het beschikt over een digitale brein dat kan begrijpen wat de senior gedurende dag aan het doen is. Daarnaast kan de Smart Teddy het slaappatroon inclusief momenten wanneer de senior wakker wordt monitoren. Op basis van deze informatie maakt de Smart Teddy een schatting over de levenskwaliteit van de senior. Informatie afkomstig van de Smart Teddy wordt aan de verzorgers en familieleden gedeeld. Tot slot kan de Smart Teddy gevaar herkennen. Denk hierbij aan rook, harde geluiden en noodkreten van de senior. Mocht er een moment zijn wanneer de Smart Teddy denkt dat de senior hulp nodig heeft, dan zal de Smart Teddy ervoor zorgen dat de senior hulp krijgt door een verzorger te alarmeren. 
+
+
 ### Literature research
 
 ### Explanation of Terminology, jargon and definitions
