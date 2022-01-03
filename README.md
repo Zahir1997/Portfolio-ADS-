@@ -266,6 +266,7 @@ De Smart Teddy is een project onder leiding van Dr. Hani al-Ers van De Haagse Ho
 
 De Smart Teddy heeft een aantal functionaliteiten. De Smart Teddy observeert de senioren door gebruik te maken van sensoren. Het beschikt over een digitale brein dat kan begrijpen wat de senior gedurende dag aan het doen is. Daarnaast kan de Smart Teddy het slaappatroon inclusief momenten wanneer de senior wakker wordt monitoren. Op basis van deze informatie maakt de Smart Teddy een schatting over de levenskwaliteit van de senior. Informatie afkomstig van de Smart Teddy wordt aan de verzorgers en familieleden gedeeld. Tot slot kan de Smart Teddy gevaar herkennen. Denk hierbij aan rook, harde geluiden en noodkreten van de senior. Mocht er een moment zijn wanneer de Smart Teddy denkt dat de senior hulp nodig heeft, dan zal de Smart Teddy ervoor zorgen dat de senior hulp krijgt door een verzorger te alarmeren. 
 
+De taak van de projectgroep was het detecteren en classificeren van emoties. De projectgroep had wegens privacyredenen geen toegang tot echte geluidsdata van senioren. Met instemming van Dr. Hani al-Ers heeft de projectgroep bestaande datasets van acteurs die emoties uitspreken gebruikt. Het detecteren en classificeren van emoties gaat een indicatie geven over de mentale gezondheid van de senior. Wanneer de Smart Teddy een periode geen emoties detecteert, kan het een indicatie zijn dat de mentale gezondheid van de senior achteruitgaat.
 
 ### Literature research
 
