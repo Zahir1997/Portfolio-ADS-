@@ -251,7 +251,7 @@ De logistic regression model is geëvalueerd met de machine learning modellen di
 
 De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices. De reden dat confusion matrices zijn gekozen, is omdat de [paper]((https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147)) die gebruikt was als hulpmiddel ook gebruik maakte van confusion matrices. Daarnaast is confusion matrices handig voor het visualiseren van machine learning modellen die een classificatie (van emoties in dit geval) uitvoeren.
 
-De confusion matrix van de logistic regression model:
+De confusion matrix van de logistic regression model(gemaakt door projectlid Jaap):
 
 ![LogisticRegression](Images/LogisticRegression.png)
 
@@ -279,23 +279,67 @@ De papers dat ik heb doorgenomen zijn de volgende:
 
 #### TRAINING SOUND EVENT DETECTION ON A HETEROGENEOUS DATASET
 
-Deze paper gaat over het detecteren van verschillende geluiden in een huishoudelijke omgeving. De paper heeft gebruikt gemaakt van de [DESED](https://project.inria.fr/desed/) dataset. Denk hierbij aan een: kat, hond, alarmbel, stofzuiger een spraak op de achtergrond. De paper heeft een convolutional neural network gebruikt om verschillende geluiden in een huishoudelijke omgeving te detecteren. De paper heeft als evaluatiemethode F1-score gebruikt. Aangezien de projectgroep vooral in de startfase op het detecteren van emoties focuste, hebben we weinig gebruik gemaakt van de informatie deze paper. 
+Deze [paper](https://arxiv.org/pdf/2007.03931.pdf) gaat over het detecteren van verschillende geluiden in een huishoudelijke omgeving. De paper heeft gebruikt gemaakt van de [DESED](https://project.inria.fr/desed/) dataset. Denk hierbij aan een: kat, hond, alarmbel, stofzuiger en spraak op de achtergrond. De paper heeft een convolutional neural network gebruikt om verschillende geluiden in een huishoudelijke omgeving te detecteren. De paper heeft als evaluatiemethode F1-score gebruikt. Aangezien de projectgroep vooral in de startfase op het detecteren van emoties focuste, hebben we weinig gebruik gemaakt van de informatie in deze paper. 
 
 
 #### An Investigation of Emotion Changes from Speech 
 
-Bij het doornemen van deze paper heb ik een [samenvatting](https://docs.google.com/document/d/1lhdoIVMwJUWjCbq2BrKqD9HhRurSvW69/edit#) gemaakt. De samenvatting geeft de kern  van de paper weer. De samenvatting had ik besproken in de daily-standup. 
+Bij het doornemen van deze [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=7344650&tag=1) heb ik een [samenvatting](https://docs.google.com/document/d/1lhdoIVMwJUWjCbq2BrKqD9HhRurSvW69/edit#) gemaakt. 
+De samenvatting geeft de kern van de paper weer. 
+De samenvatting had ik besproken in de daily-standup. 
 
 
 #### Speech Emotion Detection using IoT based DeepLearning for Health Care
 
-Deze paper was aanbevolen door projectlid Yuri aan de projectgroep. 
+Deze [paper](https://www.researchgate.net/publication/337992475_Speech_Emotion_Detection_using_IoT_based_Deep_Learning_for_Health_Care) was aanbevolen door projectlid Yuri aan de projectgroep. De paper gaat over detecteren van emoties. 
+De emoties worden aan de hand van spraaksignalen gedetecteerd en geclassificeerd. 
+De paper vertelt stapsgewijs hoe zij te werk zijn gegaan om de data op een CNN model te trainen. 
+Deze paper heeft voor de projectgroep als leidraad gefungeerd. 
+De paper komt overeen met de doelgroep die de Smart Teddy Project voor ogen heeft namelijk: senioren.  
 
 #### A Speech Emotion Recognition Solution-based on Support Vector Machine for Children with Autism Spectrum Disorder to Help Identify Human Emotions
 
-Deze paper was aanbevolen door projectlid Jaap aan de projectgroep.
+Deze [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147&tag=1) was aanbevolen door projectlid Jaap aan de projectgroep. De paper gaat over het detecteren van emoties bij kinderen met autisme. 
+Voor het detecteren van emoties is de machine learning model SVM toegepast.
+De paper heeft voor het detecteren van emoties de dataset RAVDESS gebruikt. 
+Daarnaast heeft de paper achtergrondgeluiden toegevoegd aan de dataset om realistische scenario’s te creëren. 
+De paper heeft naast een machine learning model ook andere modellen toegepast namelijk: Logistic Regression, Perceptron en Decision Tree. 
 
 ### Explanation of Terminology, jargon and definitions
+
+**Convolutional Neural Network**- een neuraal netwerk dat gebruikt wordt voor o.a. foto- en videoherkenning en classificatie.
+
+**CREMA-D**- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad, Calm en Suprise. 
+
+**Dementie**- dementie is de naam voor een combinatie van symptomen, waarbij de hersenen informatie niet meer goed kunnen verwerken.
+
+**Emotion**- bepaald gevoel als gevolg van een zintuiglijke waarneming en-of mentale ervaring
+
+**Epoch**- wanneer de gehele dataset 1 keer door een neuraal netwerk heeft gelopen.  
+
+**KNN**- een machine learning model dat gebruikt wordt voor classificaties.
+
+**Logistic Regression**- een machine learning model dat gebruikt wordt voor classificaties.
+
+**Multi-Layered Perceptron**- een neuraal netwerk dat de relatie tussen lineaire en non-lineaire leert
+
+**Precision**- de geïdentificeerde gevallen dat correct is geclassificeerd.
+
+**QoL**- De kwaliteit van het leven van een senior.
+
+**RAVDESS**- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad.
+
+**Recall**-  de positieve gevallen dat correct is geïdentificeerd 
+
+**Research proposal**- een onderzoeksplan dat richting geeft aan het onderzoek dat verricht gaat worden. 
+
+**SAVEE**- een dataset gesproken door vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad en Suprise
+
+**Smart Teddy**- een teddybeer met sensoren dat fungeert als hulpmiddel voor verzorgers en familie en een kompaan voor senioren.
+
+**SVM**- een machine learning model dat gebruikt wordt voor classificaties.
+
+**TESS**- een dataset gesproken door mannelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad en Suprise
 
 ## Data preprocessing
 
