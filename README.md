@@ -274,8 +274,19 @@ Om kennis over het detecteren en classificeren van emoties op te doen, zijn we a
 
 De papers dat ik heb doorgenomen zijn de volgende:
 
-Domain Knowledge/LiteratureResearch.jpg
+![LiteratureResearch]()
 
+
+#### TRAINING SOUND EVENT DETECTION ON A HETEROGENEOUS DATASET
+
+
+#### An Investigation of Emotion Changes from Speech 
+
+
+#### Speech Emotion Detection using IoT based DeepLearning for Health Care
+
+
+#### A Speech Emotion Recognition Solution-based on Support Vector Machine for Children with Autism Spectrum Disorder to Help Identify Human Emotions
 
 
 ### Explanation of Terminology, jargon and definitions
@@ -306,7 +317,7 @@ De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presen
 [Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
 
 ### Writing paper
-Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om de paper alinea voor alinea van de paper te behandelen.  
+Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen.  
 
 ## List of Notebooks 
 
