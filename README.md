@@ -279,15 +279,21 @@ De papers dat ik heb doorgenomen zijn de volgende:
 
 #### TRAINING SOUND EVENT DETECTION ON A HETEROGENEOUS DATASET
 
+Deze paper gaat over het detecteren van verschillende geluiden in een huishoudelijke omgeving. De paper heeft gebruikt gemaakt van de [DESED](https://project.inria.fr/desed/) dataset. Denk hierbij aan een: kat, hond, alarmbel, stofzuiger een spraak op de achtergrond. De paper heeft een convolutional neural network gebruikt om verschillende geluiden in een huishoudelijke omgeving te detecteren. De paper heeft als evaluatiemethode F1-score gebruikt. Aangezien de projectgroep vooral in de startfase op het detecteren van emoties focuste, hebben we weinig gebruik gemaakt van de informatie deze paper. 
+
 
 #### An Investigation of Emotion Changes from Speech 
+
+Bij het doornemen van deze paper heb ik een [samenvatting](https://docs.google.com/document/d/1lhdoIVMwJUWjCbq2BrKqD9HhRurSvW69/edit#) gemaakt. De samenvatting geeft de kern  van de paper weer. De samenvatting had ik besproken in de daily-standup. 
 
 
 #### Speech Emotion Detection using IoT based DeepLearning for Health Care
 
+Deze paper was aanbevolen door projectlid Yuri aan de projectgroep. 
 
 #### A Speech Emotion Recognition Solution-based on Support Vector Machine for Children with Autism Spectrum Disorder to Help Identify Human Emotions
 
+Deze paper was aanbevolen door projectlid Jaap aan de projectgroep.
 
 ### Explanation of Terminology, jargon and definitions
 
