@@ -274,7 +274,7 @@ Om kennis over het detecteren en classificeren van emoties op te doen, zijn we a
 
 De papers dat ik heb doorgenomen zijn de volgende:
 
-![LiteratureResearch](Domain Knowledge/LiteratureResearch.jpg)
+![LiteratureResearch](Images/LiteratureResearch.jpg)
 
 
 #### TRAINING SOUND EVENT DETECTION ON A HETEROGENEOUS DATASET
@@ -343,8 +343,25 @@ De paper heeft naast een machine learning model ook andere modellen toegepast na
 
 ## Data preprocessing
 
+Voor het project waren er geen datasets van de praktijk beschikbaar. Met instemming van de producteigenaar heeft de projectgroep diverse datasets gebruikt die gebruikt worden voor emotieherkenning en -classificatie. Mijn bijdrage is dat ik meegeholpen hebt met de data augementation. Verder heb ik de data voorbereid voor drie classificaties namelijk: positive, negative en neutral.
+
 ### Data exploration
- 
+
+#### Crema-D
+Crema-D is een dataset van 7442 audio samples. De audio samples zijn gesproken door 48 mannelijke stemacteuren en 43 vrouwelijke stemactrices. De dataset bevat 12 zinnen die gesproken zijn in 6 verschillende emoties. De emoties zijn: Anger, Disgust, Fear, Happy Neutral en Sad. 
+
+#### RAVDESS
+RAVDESS is een dataset van 1440 audio samples. De samples zijn gesproken door 12 mannelijke stemacteuren en 12 vrouwelijke stemactrices. De dataset bevat 2 zinnen die gesproken zijn in 8 verschillende emoties. De emoties zijn: Anger, Disgust, Fear, Happy, Neutral, Sad, Calm en Suprise. 
+
+#### SAVEE
+SAVEE is een dataset van 480 audio samples. De samples zijn gesproken door 4 mannelijke stemacteuren. De dataset bevat 15 zinnen die gesproken zijn in 7 emoties. De emoties zijn: Anger, Disgust, Fear, Happy , Sad, Calm en Suprise. 
+
+#### TESS
+TESS is een dataset van 2800 audio samples. De samples zijn gesproken door 2 vrouwelijke stemactrices. De dataset bevat 200 zinnen die gesproken zijn in 7 emoties. De emoties zijn: Anger, Disgust, Fear, Happy ,Neutral Sad, en Suprise.
+
+#### Gecombineerd
+De gebruikte datasets zijn gecombineerd om 1 dataset te vormen. In overleg met de producteigenaar is er besloten om op  de emoties: anger, sad, neutral en happy te gebruiken. 
+
 ### Data cleansing
 
 ### Data preparation
