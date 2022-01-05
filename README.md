@@ -343,7 +343,7 @@ De paper heeft naast een machine learning model ook andere modellen toegepast na
 
 ## Data preprocessing
 
-Voor het project waren er geen datasets van de praktijk beschikbaar. Met instemming van de producteigenaar heeft de projectgroep diverse datasets gebruikt die gebruikt worden voor emotieherkenning en -classificatie. Mijn bijdrage is dat ik meegeholpen hebt met de data augementation. Verder heb ik de data voorbereid voor drie classificaties namelijk: positive, negative en neutral.
+Voor het project waren er geen datasets van de praktijk beschikbaar. Met instemming van de producteigenaar heeft de projectgroep diverse datasets gebruikt die gebruikt worden voor emotieherkenning en -classificatie. Mijn bijdrage is dat ik meegeholpen hebt met de data augementation. Verder heb ik de data voorbereid voor drie classificaties : positive, negative en neutral.
 
 ### Data exploration
 
