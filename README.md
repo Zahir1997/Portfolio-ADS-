@@ -368,7 +368,13 @@ Gedurende project heb ik mij niet beziggehouden met data cleaning.
 ### Data preparation
 De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen gedaan met projectleden Koen en Yuri. 
 We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
+In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft.
 
+
+
+De werkverdeling:
+
+Images/Data Aug.png
 
 
 ### Data explanation
