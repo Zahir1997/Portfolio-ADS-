@@ -410,7 +410,7 @@ De werkverdeling:
  
  #### Positive and Negative
 
-Om de precision van de gemaakte modellen te verbeteren, hebben we als projectgroep op advies van de docenten besloten om positive, negative classificaties te maken. De emoties had ik geclassificeerd in deze groepen. De emotie suprised komt in beide classificaties voor, omdat deze [bron](https://www.paulekman.com/universal-emotions/what-is-surprise/) concludeert dat de emotie suprised zowel positief als negatief ervaren kan worden.
+Om de precision van de gemaakte modellen te verbeteren, hebben we als projectgroep op advies van de docenten besloten om positive en negative classificaties te maken. De emoties hadden ik en projectlid Yuri geclassificeerd in deze groepen. De emotie suprised komt in beide classificaties voor, omdat deze [bron](https://www.paulekman.com/universal-emotions/what-is-surprise/) concludeert dat de emotie suprised zowel positief als negatief ervaren kan worden. 
 
 De code voor het classificeren van emoties in positive en negative:
     
