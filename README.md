@@ -370,11 +370,38 @@ De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de d
 We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
 In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft.
 
-
-
 De werkverdeling:
 
 Images/DataAug.png
+
+
+        def value_augmentation(audio: any):
+        """Stretches the length of the audio
+
+        Parameters:
+        audio:any : Any audio file you'd like to use
+
+        Returns:
+        Audio with augmented values"""
+        y_aug = audio.copy()
+        dyn_change = np.random.uniform(low=1.5,high=3)
+        y_aug = y_aug * dyn_change
+        return y_aug
+        
+        
+        
+        def add_distribution_noise(audio: any):
+        """Add distribution noise to the audio file
+        
+        Parameters:
+        audio:any : Any audio file you'd like to use
+       
+        Returns:
+        Audio with distribution noise."""   
+        y_noise = audio.copy()
+        noise_amp = 0.005*np.random.uniform()*np.amax(y_noise)
+        y_noise = y_noise.astype('float64') + noise_amp * np.random.normal(size=y_noise.shape[0])
+        return y_noise
 
 
 ### Data explanation
