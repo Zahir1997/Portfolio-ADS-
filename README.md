@@ -374,7 +374,7 @@ In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heef
 
 De werkverdeling:
 
-Images/Data Aug.png
+Images/DataAug.png
 
 
 ### Data explanation
