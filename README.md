@@ -366,7 +366,7 @@ De gebruikte datasets zijn gecombineerd om 1 dataset te vormen. In overleg met d
 Gedurende project heb ik mij niet beziggehouden met data cleaning. 
 
 ### Data preparation
-De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen gedaan met projectleden Koen en Yuri. 
+De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen met projectleden Koen en Yuri gedaan. 
 We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
 In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft.
 
@@ -374,7 +374,7 @@ De werkverdeling:
 
 Images/DataAug.png
 
-
+        @staticmethod  
         def value_augmentation(audio: any):
         """Stretches the length of the audio
 
@@ -389,7 +389,7 @@ Images/DataAug.png
         return y_aug
         
         
-        
+        @staticmethod
         def add_distribution_noise(audio: any):
         """Add distribution noise to the audio file
         
