@@ -13,7 +13,7 @@ Dit is de portfolio van een bestuurskundestudent die de minor Applied Data Scien
 ### Reflection on own contribution to the project.
 #### Situation
 
-De Smart Teddy Project was het eerste data science project waarin ik aan deelgenomen heb. Ik heb positieve herinneringen over het project. Vanaf dag 1 waren we begonnen met het project door de communicatiekanaal te bepalen en te kijken hoe we het project bij gaan houden.  Aangezien ik een bestuurskundestudent ben, was ik bezorgd of ik wel een bijdrage voor het project zou kunnen leveren. Ik had in het begin vooral momenten in de minor waar ik aan mezelf begon te twijfelen of ik op de goede plek zat. Echter door gemotiveerd te blijven, vragen te stellen en de wil om te leren heb ik ervoor gezorgd dat ik een bijdrage aan het project heb geleverd.
+De Smart Teddy Project was het eerste data science project waarin ik aan deelgenomen heb. Ik heb positieve herinneringen over het project. Vanaf dag 1 waren we begonnen met het project door de communicatiekanaal te bepalen en te kijken hoe we het project bij gaan houden. Aangezien ik een bestuurskundestudent ben, was ik bezorgd of ik wel een bijdrage voor het project zou kunnen leveren. Ik had in het begin vooral momenten in de minor waar ik aan mezelf begon te twijfelen of ik op de goede plek zat. Echter door gemotiveerd te blijven, vragen te stellen en de wil om te leren heb ik ervoor gezorgd dat ik een bijdrage aan het project heb geleverd.
 
 #### Task
 
@@ -26,7 +26,7 @@ Door vragen te stellen bij de daily stand-ups en mijn scherm te delen als ik erg
 
 #### Result
 
-Ik ben tevreden over de resultaten die we geboekt hebben. De projectleden waren behulpzaam tegen elkaar. Als iemand tegen iets aanliep, sprong een projectlid erbij om degene te helpen. De uitdagende bijdrage waaraan ik gewerkt heb is met goed gevolg afgesloten.
+Ik ben tevreden over de resultaten die we geboekt hebben. De projectleden waren behulpzaam tegen elkaar. Als iemand tegen iets aanliep, sprong een projectlid erbij om degene te helpen. De uitdagende bijdrage waaraan ik gewerkt heb is met goed gevolg afgesloten. Wegens tijdgebrek is het alleen niet gelukt om de postive en negative classificaties op de benodigde aantal epochs voor de CNN model te runnen. Het is gerund op 5 epochs. Echter kan dit in de toekomst eventueel opgepakt worden.
 
 #### Reflection
 
@@ -375,7 +375,7 @@ In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heef
 
 De werkverdeling:
 
-Images/DataAug.png
+[Augmentations](Images/Augmentations.jpg)
 
         @staticmethod  
         def value_augmentation(audio: any):
@@ -406,12 +406,99 @@ Images/DataAug.png
         y_noise = y_noise.astype('float64') + noise_amp * np.random.normal(size=y_noise.shape[0])
         return y_noise
         
- De notebook is [hier](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb) te vinden
+ De notebook is [hier](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb) te vinden.
+ 
+ #### Positive and Negative
+
+Om de precision van de gemaakte modellen te verbeteren, hebben we als projectgroep op advies van de docenten besloten om positive, negative classificaties te maken. De emoties had ik geclassificeerd in deze groepen. De emotie suprised komt in beide classificaties voor, omdat deze [bron](https://www.paulekman.com/universal-emotions/what-is-surprise/) concludeert dat de emotie suprised zowel positief als negatief ervaren kan worden.
+
+De code voor het classificeren van emoties in positive en negative:
+    
+    def load_data_in_pos_neg(path, dataset_name:str):
+    data = []
+    positive = ["neutral", "happy", "calm", "suprised"]
+    negative = ["sad", "angry", "fearful", "disgust", "suprised"]
+    
+    for i, file in enumerate(glob.glob(path)):
+        file_path = os.path.basename(file)
+
+        emotion = ''
+        if dataset_name == "ravdess":
+            emotion = RAVDESS_emotion_labels[file_path.split("-")[2]]
+            #emotion = RAVDESS_emotion_labels[file_path.split("-")[3]] #turn on for trimmed data
+        else:
+            emotion = CREMA_D_emotion_labels[file_path.split("_")[2]]
+            
+        
+        if emotion not in focused_emotion_labels:
+            continue
+            
+        if emotion in positve:
+            label = "positive"
+        else:
+            label = "negative"
+
+        data.append([file, label])
+           
+    end_time = time.perf_counter()
+    
+    return pd.DataFrame(data, columns=["file", "emotion"])
+
+De code voor het generen van de databestanden in json (het formaat waarmee de projectgroep voor de preprocessing van data heeft gebruikt):
+           
+            def store_data(datasets, dataset_name:str, is_augmented:bool = False, split_sex:bool = False, augmentation_type:str="", split_pos_neg=False):
+
+            if split_pos_neg:
+            print("Emotions classified")
+            pos_df, neg_df = load_data_in_pos_neg(datasets[key], dataset_name)
+        
+            else:
+            print("Default")
+            df = load_files_in_df(datasets[key], dataset_name)
+            
+
+Voor de toekomst kan er nog eventueel gekeken worden om de emoties in de classificaties aan te passen. 
+Daarnaast kan er een neutral variable toegevoegd worden als dat nodig is.
+
+De code zal er dan zo uit zien:
+      
+    def load_data_in_pos_neg(path, dataset_name:str):
+    data = []
+    positive = ["happy", "calm", "suprised"]
+    neutral = [["neutral",]
+    negative = ["sad", "angry", "fearful", "disgust", "suprised"]
+    
+    for i, file in enumerate(glob.glob(path)):
+        file_path = os.path.basename(file)
+
+        emotion = ''
+        if dataset_name == "ravdess":
+            emotion = RAVDESS_emotion_labels[file_path.split("-")[2]]
+            #emotion = RAVDESS_emotion_labels[file_path.split("-")[3]] #turn on for trimmed data
+        else:
+            emotion = CREMA_D_emotion_labels[file_path.split("_")[2]]
+            
+        
+        if emotion not in focused_emotion_labels:
+            continue
+            
+        if emotion in positve:
+            label = "positive"
+        else:
+            label = "negative"
+
+        data.append([file, label])
+           
+    end_time = time.perf_counter()
+    
+    return pd.DataFrame(data, columns=["file", "emotion"])
 
 
 ### Data explanation
 
 ### Data visualization (exploratory)
+
+Gedurende project heb ik me niet beziggehouden met de visualisatie van de datasets. 
 
 ## Communications
 
