@@ -465,7 +465,7 @@ De code zal er dan zo uit zien:
     def load_data_in_pos_neg(path, dataset_name:str):
     data = []
     positive = ["happy", "calm", "suprised"]
-    neutral = [["neutral",]
+    neutral = ["neutral",]
     negative = ["sad", "angry", "fearful", "disgust", "suprised"]
     
     for i, file in enumerate(glob.glob(path)):
