@@ -363,8 +363,13 @@ TESS is een dataset van 2800 audio samples. De samples zijn gesproken door 2 vro
 De gebruikte datasets zijn gecombineerd om 1 dataset te vormen. In overleg met de producteigenaar is er besloten om op  de emoties: anger, sad, neutral en happy te gebruiken. 
 
 ### Data cleansing
+Gedurende project heb ik mij niet beziggehouden met data cleaning. 
 
 ### Data preparation
+De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen gedaan met projectleden Koen en Yuri. 
+We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
+
+
 
 ### Data explanation
 
