@@ -355,11 +355,11 @@ Gedurende project heb ik me niet beziggehouden met data exploration. De informat
 
 De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen met projectleden Koen en Yuri gedaan. 
 We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
-In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft.
+In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft. (uitleg dis nouse en value aug)
 
 De werkverdeling:
 
-[Augmentations](Images/Augmentations.jpg)
+![Augmentations](Images/Augmentations.jpg)
 
         @staticmethod  
         def value_augmentation(audio: any):
@@ -516,6 +516,32 @@ De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presen
 Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen.  
 
 ## List of Notebooks 
+
+Hier zijn de notebooks waarin ik gewerkt heb:
+
+[Universal Audio Preprocessing](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/universal_audio_preprocessing.ipynb)
+
+[CNN for positive, negative and neutral classification](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/models/cnn/experiment_PN/model.ipynb)
+
+[PN_balance](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/models/cnn/experiment_PN/PN_balance.ipynb)
+
+[Logistic Regression Model](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/models/lr/LR.ipynb)
+
+[Augmentations](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb)
+
+
+[Feed-Forward NeuralNet](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/Feed-Forward%20NeuralNet.ipynb)
+
+[CNN](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/CNN.ipynb)
+
+[Spotify-EDA-DecisionTree](https://datascience.hhs.nl:8888/user/19126778/notebooks/Spotify-EDA-DecisionTree.ipynb)
+
+[SVM](https://datascience.hhs.nl:8888/user/19126778/notebooks/SVM.ipynb)
+
+[Test model UCI](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/project/Test%20model%20UCI.ipynb)
+
+
+
 
 
 
