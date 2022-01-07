@@ -402,6 +402,8 @@ Images/DataAug.png
         noise_amp = 0.005*np.random.uniform()*np.amax(y_noise)
         y_noise = y_noise.astype('float64') + noise_amp * np.random.normal(size=y_noise.shape[0])
         return y_noise
+        
+ De notebook is [hier](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb) te vinden
 
 
 ### Data explanation
