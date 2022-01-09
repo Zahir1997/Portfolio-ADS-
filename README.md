@@ -70,7 +70,7 @@ Voor het leren van de basis van python heb ik de DataCamp cursussen 100% voltooi
 
 Voor het implementeren van een machine learning model op een dataset heb ik verschillende machine learning modellen zoals een SVM, lineaire regressie model en een decisiontreeclassifier op diverse datasets van sklearn en Kaggle toegepast. 
 
-Voor het uitbreiden van mijn onderzoeksvaardigeden door te leren over visualisatie heb ik geleerd over de python package matplotlib.pyplot. Matplotlib.pyplot is een handige hulpmiddel om visualisaties van data te maken en is daarbij zeker een onderdeel wat ik voor het vervolg van mijn studieloopbaan en toekomstige carrière ga gebruiken. 
+Voor het uitbreiden van mijn onderzoeksvaardigeden door te leren over visualisatie heb ik geleerd over de python packages matplotlib.pyplot, seaborn en bokeh. Deze packages zijn  handige hulpmiddelen om visualisaties van data te maken en zijn daarbij zeker een onderdeel wat ik voor het vervolg van mijn studieloopbaan en toekomstige carrière ga gebruiken. 
 
 Voor het implementeren van een werkende neuraal netwerk op een dataset heb ik eerst een feed forward neural network en daarna een convolutional neural network op de MNIST dataset toegepast.
 
@@ -109,9 +109,9 @@ Ik heb met plezier aan mijn eerste data science project gewerkt. Dit komt mede d
 ## Research Project
 
 ### Task Definition
-De Smart Teddy is een therapeutische metgezel met basisfunctionaliteiten. Het kan geluid maken en bewegen als iemand hem aanraakt. Het is zacht en schattig zodat mensen het vast kunnen pakken en  kunnen knuffelen. Senioren kunnen de Smart Teddy op lange termijn gebruiken. Net als een huisdier observeert de Smart Teddy  senioren. Dit wordt gedaan d.m.v. sensoren. Het heeft een digitale brein dat ervoor zorgt dat de Smart Teddy de senior gedurende dag begrijpt. Op basis hiervan maakt het een schatting over de tijd waarin de senior gelukkig is. De Smart Teddy kan ook controleren of de senior genoeg slaap krijgt en wanneer de senior in de nacht wakker wordt. Van deze informatie maakt de Smart Teddy een weloverwogen schatting over de kwaliteit van het leven van de senior. Dit wordt gebruikt om familie en verzorgers te informeren. De Smart Teddy wordt gebruikt voor senioren die kampen met dementie.
+De Smart Teddy is een therapeutische metgezel met basisfunctionaliteiten. Het kan geluid maken en bewegen als iemand het aanraakt. Het is zacht en schattig zodat mensen het vast kunnen pakken en  kunnen knuffelen. Senioren kunnen de Smart Teddy op lange termijn gebruiken. Net als een huisdier observeert de Smart Teddy  senioren. Dit wordt gedaan d.m.v. sensoren. Het heeft een digitale brein dat ervoor zorgt dat de Smart Teddy de senior gedurende dag begrijpt. Op basis hiervan maakt het een schatting over de tijd waarin de senior gelukkig is. De Smart Teddy kan ook controleren of de senior genoeg slaap krijgt en wanneer de senior in de nacht wakker wordt. Van deze informatie maakt de Smart Teddy een weloverwogen schatting over de kwaliteit van het leven van de senior. Dit wordt gebruikt om familie en verzorgers te informeren. De Smart Teddy wordt gebruikt voor senioren die kampen met dementie.
 
-De Smart Teddy Project was gesplitst in drie groepen in de minor. Een groep werkte aan het detecteren van eet- en drinkgeluiden. Een ander groep werkte aan het detecteren van dialoog in de kamer. Ons projectgroep werkte aan het detecteren van emoties. De einddoel van ons project was het detecteren en classificeren van emoties. De Smart Teddy Project werd geleid door dr. Hani Al-Ers. 
+De Smart Teddy Project was gesplitst in drie groepen. Een groep werkte aan het detecteren van eet- en drinkgeluiden. Een ander groep werkte aan het detecteren van dialoog in de kamer. Ons projectgroep werkte aan het detecteren van emoties. De einddoel van ons project was het detecteren en classificeren van emoties. De Smart Teddy Project werd geleid door dr. Hani Al-Ers. 
 
 De groep is tot de volgende hoofdvraag gekomen:
 
@@ -157,7 +157,7 @@ De Scrumboard van het project:
 
 ![ScrumBoard](Images/ScrumBoard.jpg)
 
-De User Stories dat aan mij in chronologische volgorde toegewezen zijn:
+De User Stories dat aan mij op chronologische volgorde toegewezen zijn:
 
 ![UserStories1](Images/UserStories1.jpg)
 
@@ -232,7 +232,7 @@ Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van 
 
         super().model_accuracy(clf, x_train, x_test, y_train, y_test)
         
-Ik heb gespeeld met de cv parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele de test en train accuracy lichtelijk beter scoort dan bij een oneven variabele.
+Ik heb gespeeld met de cv parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele train accuracy van de RAVDESS dataset lichtelijk beter scoort dan bij een oneven variabele.
 
 
 | cv | Train CREMA-D | Test CREMA-D | Train RAVDESS  | Test RAVDESS | 
@@ -307,39 +307,49 @@ De paper heeft naast een machine learning model ook andere modellen toegepast na
 
 ### Explanation of Terminology, jargon and definitions
 
-**Convolutional Neural Network**- een neuraal netwerk dat gebruikt wordt voor o.a. foto- en videoherkenning en classificatie.
+In deze paragraaf zijn de termen met definities beschikbaar die gedurende project gebruikt zijn.
 
-**CREMA-D**- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad, Calm en Suprise. 
+Convolutional Neural Network- een neuraal netwerk dat gebruikt wordt voor o.a. foto- en videoherkenning en classificatie.
 
-**Dementie**- dementie is de naam voor een combinatie van symptomen, waarbij de hersenen informatie niet meer goed kunnen verwerken.
+CREMA-D- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad, Calm en Suprise. 
 
-**Emotion**- bepaald gevoel als gevolg van een zintuiglijke waarneming en-of mentale ervaring
+Dementie- dementie is de naam voor een combinatie van symptomen, waarbij de hersenen informatie niet meer goed kunnen verwerken.
 
-**Epoch**- wanneer de gehele dataset 1 keer door een neuraal netwerk heeft gelopen.  
+Emotion- bepaald gevoel als gevolg van een zintuiglijke waarneming en-of mentale ervaring
 
-**KNN**- een machine learning model dat gebruikt wordt voor classificaties.
+Epoch- wanneer de gehele dataset 1 keer door een neuraal netwerk heeft gelopen.  
 
-**Logistic Regression**- een machine learning model dat gebruikt wordt voor classificaties.
+Feature extraction- het indelen van een dataset waardoor het makkelijker is om een model erop te trainen
 
-**Multi-Layered Perceptron**- een neuraal netwerk dat de relatie tussen lineaire en non-lineaire leert
+FFT- Fast Fourier Transformation, een  meetmethode voor audioanalyses. Een geluidssignaal wordt omgezet in bepaalde componenten waardoor je informatie over de 
+frequentie van een geluidssignaal krijgt.
 
-**Precision**- de geïdentificeerde gevallen dat correct is geclassificeerd.
+KNN- een machine learning model dat gebruikt wordt voor classificaties.
 
-**QoL**- De kwaliteit van het leven van een senior.
+Logistic Regression- een machine learning model dat gebruikt wordt voor classificaties en regressies.
 
-**RAVDESS**- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad.
+MFCC- Mel-frequency cepstral coefficients , een weergave van de frequenties van een audiosignaal. dat gebruikt wordt voor het verwerken van geluid.  
 
-**Recall**-  de positieve gevallen dat correct is geïdentificeerd 
+Multi-Layered Perceptron- een neuraal netwerk dat de relatie tussen lineaire en non-lineaire data leert.
 
-**Research proposal**- een onderzoeksplan dat richting geeft aan het onderzoek dat verricht gaat worden. 
+Precision- de geïdentificeerde gevallen dat correct is geclassificeerd.
 
-**SAVEE**- een dataset gesproken door vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad en Suprise
+QoL- De kwaliteit van het leven van een senior
 
-**Smart Teddy**- een teddybeer met sensoren dat fungeert als hulpmiddel voor verzorgers en familie en een kompaan voor senioren.
+RAVDESS- een dataset gesproken door mannelijke en vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad.
 
-**SVM**- een machine learning model dat gebruikt wordt voor classificaties.
+Recall-  de positieve gevallen dat correct is geïdentificeerd 
 
-**TESS**- een dataset gesproken door mannelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad en Suprise
+Research proposal- een onderzoeksplan dat richting geeft aan het onderzoek dat verricht gaat worden. 
+
+SAVEE- een dataset gesproken door vrouwelijke acteurs in de emoties : Anger, Disgust, Fear, Happy, Neutral, Sad en Suprise
+
+Smart Teddy- een teddybeer met sensoren dat fungeert als hulpmiddel voor verzorgers en familie en een kompaan voor senioren.
+
+Spectogram-een grafiek waarin de energie per frequentiegebied is uitgezet tegen tijd
+
+SVM- een machine learning model dat gebruikt wordt voor classificaties.
+
 
 ## Data preprocessing
 
@@ -355,7 +365,7 @@ Gedurende project heb ik me niet beziggehouden met data exploration. De informat
 
 De audio files hebben we geaugmenteerd. Reden daarvoor is om de samples van de datasets te vergroten. Ik heb dit samen met projectleden Koen en Yuri gedaan. 
 We hebben hiervoor deze [site]( https://www.kaggle.com/huseinzol05/sound-augmentation-librosa#value-augmentation) gebruikt als hulpmiddel.
-In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft. (uitleg dis nouse en value aug)
+In totaal zijn er 6 augmentaties gemaakt waarvan ieder persoon er 2 gemaakt heeft.
 
 De werkverdeling:
 
@@ -513,7 +523,7 @@ De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presen
 [Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
 
 ### Writing paper
-Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen.  
+Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de eerste versie van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen.  
 
 ## List of Notebooks 
 
@@ -539,6 +549,11 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 [SVM](https://datascience.hhs.nl:8888/user/19126778/notebooks/SVM.ipynb)
 
 [Test model UCI](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/project/Test%20model%20UCI.ipynb)
+
+
+## Additional DataCamp Courses
+
+
 
 
 
