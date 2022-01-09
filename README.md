@@ -454,7 +454,7 @@ De code voor het generen van de databestanden in json (het formaat waarmee de pr
 Voor de toekomst kan er nog eventueel gekeken worden om de emoties in de classificaties aan te passen. 
 Daarnaast kan er een neutral variable toegevoegd worden als dat nodig is.
 
-De code zal er dan zo uit zien (met de product owner is er besproken om deze 4 emoties te gebruiken):
+De code zal er dan zo uit zien (met de product owner is er besproken om deze 4 emoties te gebruiken, dit kan echter met goedkeuring van de product owner gewijzigd worden):
       
     def load_data_in_pos_neg(path, dataset_name:str):
     data = []
