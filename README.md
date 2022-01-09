@@ -556,7 +556,7 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 ## Additional DataCamp Courses
 
 ![Seaborn](Images/certificate-1.jpg)
-[Bokeh]()
+![Bokeh]()
 
 
 
