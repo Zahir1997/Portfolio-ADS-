@@ -550,10 +550,12 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 
 [Test model UCI](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/project/Test%20model%20UCI.ipynb)
 
+(notebooks overzetten naar pdf)
+
 
 ## Additional DataCamp Courses
 
-
+[Seaborn](Images/certificate.pdf)
 
 
 
