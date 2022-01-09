@@ -558,7 +558,7 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 ![Seaborn](Images/certificate-1.jpg)
 
 
-![Bokeh](Images/certificate 2-1.jpg)
+![Bokeh](Images/certificate-2.jpg)
 
 
 
