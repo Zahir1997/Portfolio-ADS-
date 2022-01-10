@@ -118,7 +118,6 @@ De groep is tot de volgende hoofdvraag gekomen:
 
 *Which machine learning models achieve the highest precision classifying emotions, using datasets containing audio with labeled vocal emotional expressions recorded in a professional recording studio, in order to recognize emotions within household environments?*
 
-De machine learning models in de hoofdvraag is niet meer van toepassing aangezien de research paper alleen de focus legt op de convolutional neural network en niet op de machine learning modellen die gebouwd zijn.
 
 Meer informatie over de richting van het onderzoek zal in de sub-paragraaf research proposal behandeld worden.
 
