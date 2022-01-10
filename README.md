@@ -143,8 +143,11 @@ Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor 
 Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoegd of verwijderd worden. Hiermee te experimenteren kan de precision van de model wellicht verbeterd worden.
 
 ### Conclusions
-(aanpassen)
-Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio samples van acteurs die diverse emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. Er werd zodoende een dataset met veel samples gemaakt die aan de convolutional neural network gegeven werd. De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 87%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 84%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
+
+Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio samples van acteurs die diverse emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. 
+De resultaten van de machine learning modellen zijn [hier](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680) te vinden. Aangezien de resultaten van de machine learning modellen matig scoorde, had de projectgroep besloten om een convolution neural network besloten. 
+De [paper](https://www.researchgate.net/publication/337992475_Speech_Emotion_Detection_using_IoT_based_Deep_Learning_for_Health_Care) die projectlid Yuri gevonden had was de aanleiding tot dit besluit. 
+De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 84%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 80%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
 
 ### Planning
 De planning van het project was onder handen genomen door projectlid/scrummaster Yuri. Hij was de persoon die de planning bewaakte. Daarbij zorgde hij ook voor de interne meetings om samen met de projectgroep naar de planning te kijken om stappen in het project te maken.
@@ -248,7 +251,7 @@ De logistic regression model is geëvalueerd met de machine learning modellen di
 
 ### Visualizing the outcome of a model (explanatory)
 
-De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices. De reden dat confusion matrices zijn gekozen, is omdat de [paper]((https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147)) die gebruikt was als hulpmiddel ook gebruik maakte van confusion matrices. Daarnaast is confusion matrices handig voor het visualiseren van machine learning modellen die een classificatie (van emoties in dit geval) uitvoeren.
+De uitkomsten van machine learning modellen waaronder de logistic regression models zijn gevisualiseerd in confusion matrices. De reden dat confusion matrices zijn gekozen, is omdat deze [paper]((https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147)) gebruik maakte van confusion matrices. Daarnaast is confusion matrices handig voor het visualiseren van machine learning modellen die classificaties (van emoties in dit geval) uitvoeren.
 
 De confusion matrix van de logistic regression model(gemaakt door projectlid Jaap):
 
