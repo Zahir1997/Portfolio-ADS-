@@ -143,7 +143,7 @@ Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor 
 Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoegd of verwijderd worden. Hiermee te experimenteren kan de precision van de model wellicht verbeterd worden.
 
 ### Conclusions
-
+(aanpassen)
 Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio samples van acteurs die diverse emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. Er werd zodoende een dataset met veel samples gemaakt die aan de convolutional neural network gegeven werd. De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 87%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 84%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
 
 ### Planning
