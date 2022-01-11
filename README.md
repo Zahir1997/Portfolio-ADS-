@@ -195,7 +195,7 @@ Een retrospective die in sprint 6 gehouden werd:
 ## Predictive Analytics
 
 ### Selecting a Model
-De ML/NN modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft.
+De eerste ML/NN modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft.
 
 ### Configuring a Model
 Voor de configuratie van de logistic regression model hebben we alle parameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
@@ -403,7 +403,7 @@ De werkverdeling:
         y_noise = y_noise.astype('float64') + noise_amp * np.random.normal(size=y_noise.shape[0])
         return y_noise
         
- De notebook is [hier](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb) te vinden.
+ De notebook is [hier](Notebooks/augmentation.pdf) te vinden.
  
  #### Positive and Negative
 
