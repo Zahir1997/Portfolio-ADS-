@@ -553,7 +553,7 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 
 [SVM](Notebooks/SVM.pdf)
 
-[Test model UCI](Notebooks/Test model UCI.pdf)
+[Test model UCI](Notebooks/Test_Model_UCI.pdf)
 
 
 
