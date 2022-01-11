@@ -139,8 +139,8 @@ Allereerst kan het aantal neutrale samples in de dataset vergroot worden om te k
 Daarnaast kan er naast de vier gebruikte datasets meerdere datasets toegevoegd worden om te kijken of het impact op de precision heeft. De datasets dat toegevoegd kunnen worden zijn: eNTERFACE, EMO-DB, DES en SUSAS. 
 Wanneer er real world data beschikbaar is, kan er getest worden om langere samples. 
 Emoties zijn vaak uitgedrukt in meerdere zinnen. 
-Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden.
-Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoegd of verwijderd worden. Hiermee te experimenteren kan de precision van de model wellicht verbeterd worden.
+Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden. Tot slot is er geëxperimenteerd met het groeperen van emoties in groepen als: positief en negatief. Wegens tijdgebrek is de projectgroep er niet aan toegekomen om deze classificatie volledig op de CNN te runnen. Om te kijken of er verschil in de precision is, kan dit eventueel in de toekomst opgepakt worden
+
 
 ### Conclusions
 
