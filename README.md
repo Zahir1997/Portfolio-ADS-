@@ -214,7 +214,7 @@ Voor de configuratie van de logistic regression model hebben we alle parameters 
 
 ### Training a model
 
-Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV [zoekt] (https://towardsdatascience.com/grid-search-for-hyperparameter-tuning-9f63945e8fec) de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle parameters in ons model gezet hebben.
+Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV [zoekt](https://towardsdatascience.com/grid-search-for-hyperparameter-tuning-9f63945e8fec) de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle parameters in ons model gezet hebben.
 
         start_time = time.perf_counter()
         clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
