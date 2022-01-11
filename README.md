@@ -534,28 +534,27 @@ Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de pa
 
 Hier zijn de notebooks waarin ik gewerkt heb:
 
-[Universal Audio Preprocessing](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/universal_audio_preprocessing.ipynb)
+[Universal Audio Preprocessing](Notebooks/universal_audio_preprocessing.pdf)
 
-[CNN for positive, negative and neutral classification](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/models/cnn/experiment_PN/model.ipynb)
+[CNN for positive, negative and neutral classification](Notebooks/model.pdf)
 
-[PN_balance](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/emo/source/models/cnn/experiment_PN/PN_balance.ipynb)
+[PN_balance](Notebooks/PN_balance.pdf)
 
-[Logistic Regression Model](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/models/lr/LR.ipynb)
+[Logistic Regression Model](Notebooks/LR.pdf)
 
-[Augmentations](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/source/pipeline/augmentation.ipynb)
+[Augmentations](Notebooks/augmentation.pdf)
 
 
-[Feed-Forward NeuralNet](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/Feed-Forward%20NeuralNet.ipynb)
+[Feed-Forward NeuralNet](Notebooks/Feed-Forward NeuralNet.pdf)
 
-[CNN](https://gpuserver.hhs.nl:8888/user/19126778/notebooks/CNN.ipynb)
+[CNN](Notebooks/CNN.pdf)
 
-[Spotify-EDA-DecisionTree](https://datascience.hhs.nl:8888/user/19126778/notebooks/Spotify-EDA-DecisionTree.ipynb)
+[Spotify-EDA-DecisionTree](Notebooks/Spotify-EDA-DecisionTree.pdf)
 
-[SVM](https://datascience.hhs.nl:8888/user/19126778/notebooks/SVM.ipynb)
+[SVM](Notebooks/SVM.pdf)
 
-[Test model UCI](https://datascience.hhs.nl:8888/user/19126778/notebooks/emo/project/Test%20model%20UCI.ipynb)
+[Test model UCI](Notebooks/Test model UCI.pdf)
 
-(notebooks overzetten naar pdf)
 
 
 ## Additional DataCamp Courses
