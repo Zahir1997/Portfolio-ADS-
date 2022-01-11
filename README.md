@@ -547,6 +547,8 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 
 [Augmentations](Notebooks/augmentation.pdf)
 
+[Dataset Loader](Notebooks/dataset_loader.pdf)
+
 
 [Feed-Forward NeuralNet](Notebooks/Feed-Forward-NeuralNet.pdf)
 
