@@ -441,7 +441,7 @@ De code voor het classificeren van emoties in positive en negative:
     
     return pd.DataFrame(data, columns=["file", "emotion"])
     
-De volledige notebook is [hier]() te vinden.
+De volledige notebook is [hier]((Notebooks/universal_audio_preprocessing.pdf)) te vinden.
 
 De code voor het generen van de databestanden in json (het formaat waarmee de projectgroep voor de preprocessing van data heeft gebruikt):
            
@@ -455,7 +455,7 @@ De code voor het generen van de databestanden in json (het formaat waarmee de pr
             print("Default")
             df = load_files_in_df(datasets[key], dataset_name)
             
-De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf) te vinden.
+De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf)te vinden.
 
 Voor de toekomst kan er nog eventueel gekeken worden om de emoties in de classificaties aan te passen. 
 Daarnaast kan er een neutral variable toegevoegd worden als dat nodig is.
