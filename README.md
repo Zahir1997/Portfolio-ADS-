@@ -545,7 +545,7 @@ Hier zijn de notebooks waarin ik gewerkt heb:
 [Augmentations](Notebooks/augmentation.pdf)
 
 
-[Feed-Forward NeuralNet](Notebooks/Feed-Forward NeuralNet.pdf)
+[Feed-Forward NeuralNet](Notebooks/Feed-Forward-NeuralNet.pdf)
 
 [CNN](Notebooks/CNN.pdf)
 
