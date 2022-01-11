@@ -13,7 +13,7 @@ Dit is de portfolio van een bestuurskundestudent die de minor Applied Data Scien
 ### Reflection on own contribution to the project.
 #### Situation
 
-De Smart Teddy Project was het eerste data science project waarin ik aan deelgenomen heb. Ik heb positieve herinneringen over het project. Vanaf dag 1 waren we begonnen met het project door de communicatiekanaal te bepalen en te kijken hoe we het project bij gaan houden. Aangezien ik een bestuurskundestudent ben, was ik bezorgd of ik wel een bijdrage voor het project zou kunnen leveren. Ik had in het begin vooral momenten in de minor waar ik aan mezelf begon te twijfelen of ik op de goede plek zat. Echter door gemotiveerd te blijven, vragen te stellen en de wil om te leren heb ik ervoor gezorgd dat ik een bijdrage aan het project heb geleverd.
+De Smart Teddy Project was het eerste data science project waarin ik aan deelgenomen heb. Ik heb dit project als positief ervaren. Vanaf dag 1 waren we begonnen met het project door de communicatiekanaal te bepalen en te kijken hoe we het project bij gaan houden. Aangezien ik een bestuurskundestudent ben, was ik bezorgd of ik wel een bijdrage voor het project zou kunnen leveren. Ik had in het begin een momentje in de minor waar ik aan mezelf begon te twijfelen of ik op de goede plek zat. Echter door gemotiveerd te blijven, vragen te stellen en de wil om te leren heb ik ervoor gezorgd dat ik een bijdrage aan het project heb geleverd.
 
 #### Task
 
@@ -104,7 +104,7 @@ Ik ben tevreden met resultaat die we geboekt hebben. De projectgroep waren van b
 
 #### Reflection
 
-Ik heb met plezier aan mijn eerste data science project gewerkt. Dit komt mede door de positieve ervaringen dat ik in de groep heb meegemaakt. Iedereen heeft gedaan wat hij moest doen en was transparant daarin door het te vermelden in de daily stand-ups. Na de sprint hadden we een moment genaamd de retrospective waarbij we de goede aspecten, minder goede aspecten en actiepunten van de sprint bespraken. Deze structuur van werken beviel mij.
+Ik heb met plezier aan mijn eerste data science project gewerkt. Dit komt mede door de positieve ervaringen die ik in de groep heb meegemaakt. Iedereen heeft gedaan wat hij moest doen en was transparant daarin door het te vermelden in de daily stand-ups. Na de sprint hadden we een moment genaamd de retrospective waarbij we de goede aspecten, minder goede aspecten en actiepunten van de sprint bespraken. Deze structuur van werken beviel mij.
   
 ## Research Project
 
@@ -122,7 +122,7 @@ De groep is tot de volgende hoofdvraag gekomen:
 Meer informatie over de richting van het onderzoek zal in de sub-paragraaf research proposal behandeld worden.
 
 #### Research proposal
-De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is onacceptabel om veel valse positieven te hebben aangezien de teddybeer als een adviseur voor zorgverleners gebruikt gaat worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven. Er is besloten om huishoudelijke omgevingsgeluiden aan de datasets toe te voegen om realistische scenarios na te bootsen. 
+De research proposal was geschreven door mezelf en projectlid Breno. We hebben de research proposal geschreven om een duidelijke richting over het onderzoek te geven. Daarnaast heeft de research proposal geholpen bij het schrijven van de paper. De reden dat de hoofdvraag gekozen is, omdat de projectgroep de huidige methoden van het classificeren van audio data aan het onderzoeken was. Er is gekozen om op precision te focussen. Het eindgebruik gaat over het peilen van de mentale gezondheid van senioren. Dit moet accuraat behandeld worden. Het is beter om zeker te zijn dat een emotie correct gedetecteerd wordt dan een emotie te misclassificeren. De emoties die gedetecteerd worden zijn een indicatie over de gezondheid van een senior en of de senior daarbij in staat is zelfstandig te leven. Er is besloten om huishoudelijke omgevingsgeluiden aan de datasets toe te voegen om realistische scenarios na te bootsen. 
 
 De scope van het onderzoek, deelvragen en gerelateerde werk zijn ook in de 
 [research proposal](https://docs.google.com/document/d/1NxFVP1G9DyZr4Q7_GdJvULewCiscxtOvygtyHUCDSeE/edit#heading=h.rqlgrsn8oj5p) behandeld.
@@ -145,7 +145,7 @@ Tot slot kan er in de positieve, negatieve en neutrale groepen emoties toegevoeg
 ### Conclusions
 
 Om de hoofdvraag te beantwoorden zijn er vier datasets gebruikt met gelabelde audio samples van acteurs die diverse emoties uitspreken. De datasets zijn: RAVDESS, CREMA-D, SAVEE en TESS. Deze vier datasets zijn samengevoegd. 
-De resultaten van de machine learning modellen zijn [hier](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680) te vinden. Aangezien de resultaten van de machine learning modellen matig scoorde, had de projectgroep besloten om een convolution neural network besloten. 
+De resultaten van de machine learning modellen zijn [hier](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit#gid=995783680) te vinden. Aangezien de resultaten van de machine learning modellen matig scoorde, had de projectgroep besloten om een convolutional neural network te gebruiken. 
 De [paper](https://www.researchgate.net/publication/337992475_Speech_Emotion_Detection_using_IoT_based_Deep_Learning_for_Health_Care) die projectlid Yuri gevonden had was de aanleiding tot dit besluit. 
 De precision van de CNN zonder huishoudelijke omgevingsgeluiden is 84%. De precision van de CNN met huishoudelijke omgevingsgeluiden is 80%. Er kan geconcludeerd worden dat de huishoudelijke omgevingsgeluiden een lichte negatieve impact op de convolutional neural network heeft. 
 
@@ -187,7 +187,7 @@ De roadmap:
 #### Retrospective
 De retrospective werd aan het eind van een sprint gehouden. De retrospective werd georganiseerd door de scrummaster via Fraankly.  In de retrospective kreeg ieder projectlid de mogelijkheid om de goede aspecten, minder goede aspecten en veranderpunten voor de volgende sprint op te schrijven. Zodra ieder projectlid zijn deel opgeschreven had, werd er door ieder projectlid een korte presentatie gegeven over de onderdelen die hij opgeschreven had. Na de presentaties vond er een stemronde plaats over de onderdelen die ieder projectlid het belangrijkst acht. Na de stemronde werd er een lijst met actiepunten gemaakt die voor de volgende sprint meegenomen werd.
 
-De retrospective die in sprint 6 gehouden werd:
+Een retrospective die in sprint 6 gehouden werd:
 
 ![Retrospective](Images/Retrospective.jpg)
 
@@ -195,10 +195,10 @@ De retrospective die in sprint 6 gehouden werd:
 ## Predictive Analytics
 
 ### Selecting a Model
-De machine learning modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft. Het onderzoek heeft de RAVDESS dataset gebruikt. Wij hebben er voor gekozen om de RAVDESS en CREMA-D datasets te gebruiken.
+De ML/NN modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft.
 
 ### Configuring a Model
-Voor de configuratie van de logistic regression model hebben we alle hyperparameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
+Voor de configuratie van de logistic regression model hebben we alle parameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
     
     class LogisticalRegression(BaseModel):
     instance = "Logistical Regression"
@@ -214,7 +214,7 @@ Voor de configuratie van de logistic regression model hebben we alle hyperparame
 
 ### Training a model
 
-Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV zoekt de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle hyperparameters in ons model gezet hebben.
+Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV [zoekt] (https://towardsdatascience.com/grid-search-for-hyperparameter-tuning-9f63945e8fec)de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle parameters in ons model gezet hebben.
 
         start_time = time.perf_counter()
         clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
@@ -247,7 +247,8 @@ Ik heb gespeeld met de cv parameter om te zien of er bij diverse variabelen in d
 
 ### Evaluating a model
 
-De logistic regression model is geëvalueerd met de machine learning modellen die de projectleden gemaakt hebben. De evaluatie van de modellen is [hier](https://docs.google.com/spreadsheets/d/1SGjHORuv2V7R-UGH_zaVUPe-bFol-A4_j-msHxtJBgM/edit#gid=0) te vinden.
+De logistic regression model is geëvalueerd met de machine learning modellen die de projectleden gemaakt hebben. We hadden eerst twee datasets namelijk: RAVDESS en CREMA-D gebruikt. De evaluatie van de modellen is [hier](https://docs.google.com/spreadsheets/d/1SGjHORuv2V7R-UGH_zaVUPe-bFol-A4_j-msHxtJBgM/edit#gid=0) te vinden. Mijn bijdrage is dat ik per per emotie van een ML ging kijken wat goed scoorde en wat niet.
+In de loop van het project was er nog twee datasets toegevoegd namelijk: SAVEE en TESS. De [evaluatie](https://docs.google.com/spreadsheets/d/1wc8sp6qxJ8SR_4TogPoZNkbWzzibx6kIHkYBRkAg0OI/edit) is hier te vinden. 
 
 ### Visualizing the outcome of a model (explanatory)
 
@@ -348,7 +349,7 @@ SAVEE- een dataset gesproken door vrouwelijke acteurs in de emoties : Anger, Dis
 
 Smart Teddy- een teddybeer met sensoren dat fungeert als hulpmiddel voor verzorgers en familie en een kompaan voor senioren.
 
-Spectogram-een grafiek waarin de energie per frequentiegebied is uitgezet tegen tijd
+Spectogram-een grafiek waarin de energie van geluid per frequentiegebied is uitgezet tegen tijd
 
 SVM- een machine learning model dat gebruikt wordt voor classificaties.
 
@@ -488,6 +489,8 @@ De code zal er dan zo uit zien (met de product owner is er besproken om deze 4 e
     end_time = time.perf_counter()
     
     return pd.DataFrame(data, columns=["file", "emotion"])
+    
+Deze classificatie hebben we op 5 epochs in de CNN uitgevoerd. Wegens tijdgebrek hebben we het niet op 50 epochs kunnen runnen. De [evaluatie](https://docs.google.com/spreadsheets/d/1cotzrDF123I6xcrfCqHcOY2XAV_MtHLj/edit#gid=2125836345) is hier te vinden. 
 
 
 ### Data explanation
