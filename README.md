@@ -70,7 +70,7 @@ Voor het leren van de basis van python heb ik de DataCamp cursussen 100% voltooi
 
 Voor het implementeren van een machine learning model op een dataset heb ik verschillende machine learning modellen zoals een SVM, lineaire regressie model en een decisiontreeclassifier op diverse datasets van sklearn en Kaggle toegepast. 
 
-Voor het uitbreiden van mijn onderzoeksvaardigeden door te leren over visualisatie heb ik geleerd over de python packages matplotlib.pyplot, seaborn en bokeh. Deze packages zijn  handige hulpmiddelen om visualisaties van data te maken en zijn daarbij zeker een onderdeel wat ik voor het vervolg van mijn studieloopbaan en toekomstige carrière ga gebruiken. 
+Voor het uitbreiden van mijn onderzoeksvaardigeden door te leren over visualisatie heb ik geleerd over de python packages matplotlib.pyplot, seaborn en bokeh. Deze packages zijn  handige hulpmiddelen om visualisaties van data te maken en zijn daarbij zeker een onderdeel wat ik in het vervolg van mijn studieloopbaan en toekomstige carrière ga gebruiken. 
 
 Voor het implementeren van een werkende neuraal netwerk op een dataset heb ik eerst een feed forward neural network en daarna een convolutional neural network op de MNIST dataset toegepast.
 
@@ -440,6 +440,8 @@ De code voor het classificeren van emoties in positive en negative:
     end_time = time.perf_counter()
     
     return pd.DataFrame(data, columns=["file", "emotion"])
+    
+De volledige notebook is [hier]() te vinden.
 
 De code voor het generen van de databestanden in json (het formaat waarmee de projectgroep voor de preprocessing van data heeft gebruikt):
            
@@ -453,6 +455,7 @@ De code voor het generen van de databestanden in json (het formaat waarmee de pr
             print("Default")
             df = load_files_in_df(datasets[key], dataset_name)
             
+De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf) te vinden.
 
 Voor de toekomst kan er nog eventueel gekeken worden om de emoties in de classificaties aan te passen. 
 Daarnaast kan er een neutral variable toegevoegd worden als dat nodig is.
