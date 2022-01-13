@@ -56,7 +56,7 @@ Als een bestuurskundestudent had ik geen kennis over programmeertalen. Ik was va
 
 Over machine learning modellen en hoe je het kan implementeren heb ik voornamelijk uit de courses van DataCamp en de hoorcolleges van Jeroen Vuurens geleerd.
 
-Ik wilde mijn onderzoeksvaardigheden uitbreiden door meer te leren over het visualiseren van data. De workshop van Tony Andioli over datavisualisatie waren op dit punt behulpzaam. De do’s en don’ts van het visualiseren van data waren nuttig en is iets wat ik zeker nog in de toekomst baat bij zal hebben.
+Ik wilde mijn onderzoeksvaardigheden uitbreiden door meer te leren over het visualiseren van data. De workshop van Tony Andrioli over datavisualisatie waren op dit punt behulpzaam. De do’s en don’ts van het visualiseren van data waren nuttig en is iets wat ik zeker nog in de toekomst baat bij zal hebben.
 
 Over neurale netwerken en hoe je het kan implementeren heb ik voornamelijk geleerd uit de hoorcolleges van Jeroen Vuurens en informatie van internet.
 
@@ -136,10 +136,13 @@ Elke week had de projectgroep meetings met docenten en de producteigenaar. Nieuw
 In de toekomst kan het onderzoek op verschillende manieren verder opgepakt worden. 
 
 Allereerst kan het aantal neutrale samples in de dataset vergroot worden om te kijken of de precision van de neutrale emotie verbeterd wordt. Een gevolg hiervan is dat de datasets niet in balans is, maar er is een kans dat de precision van emoties angry, happy en sad verbeterd worden.
+
 Daarnaast kan er naast de vier gebruikte datasets meerdere datasets toegevoegd worden om te kijken of het impact op de precision heeft. De datasets dat toegevoegd kunnen worden zijn: eNTERFACE, EMO-DB, DES en SUSAS. 
-Wanneer er real world data beschikbaar is, kan er getest worden om langere samples. 
-Emoties zijn vaak uitgedrukt in meerdere zinnen. 
-Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden. Tot slot is er geëxperimenteerd met het groeperen van emoties in groepen als: positief en negatief. Wegens tijdgebrek is de projectgroep er niet aan toegekomen om deze classificatie volledig op de CNN te runnen. Om te kijken of er verschil in de precision is, kan dit eventueel in de toekomst opgepakt worden
+Wanneer er real world data beschikbaar is, kan er getest worden om langere samples. Emoties zijn namelijk vaak uitgedrukt in meerdere zinnen. 
+
+Hyperparameter tuning is daarbij ook een onderdeel dat opgepakt kan worden voor de convolutional neural network. De learning rate en batchsize zijn de parameters die getuned kan worden. 
+
+Tot slot is er geëxperimenteerd met het groeperen van emoties in groepen als: positief en negatief. Wegens tijdgebrek is de projectgroep er niet aan toegekomen om deze classificatie volledig op de CNN te runnen. Om te kijken of er verschil in de precision is, kan dit eventueel in de toekomst opgepakt worden
 
 
 ### Conclusions
@@ -198,7 +201,7 @@ Een retrospective die in sprint 6 gehouden werd:
 De eerste ML/NN modellen die de projectgroep gebouwd hebben zijn: SVM, logistic regression, multi-layered perceptron en een KNN model. Ik en projectlid Jaap hebben gewerkt aan een logistic regression model. De projectgroep had geen toegang tot real world data. Voor het project hebben we gebruikt gemaakt van datasets die audio data bevat van verschillende emoties die in spraak uitgedrukt zijn. We hebben voor dit model gekozen, omdat we een [paper](https://ieeexplore-ieee-org.ezproxy.hhs.nl/stamp/stamp.jsp?tp=&arnumber=9249147) tegenkwamen die bij een soortgelijk onderzoek een logistic regression gebruikt heeft.
 
 ### Configuring a Model
-Voor de configuratie van de logistic regression model hebben we alle parameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
+Voor de configuratie van de logistic regression model hebben we alle hyperparameters gebruikt die we konden [vinden](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). 
     
     class LogisticalRegression(BaseModel):
     instance = "Logistical Regression"
@@ -214,7 +217,7 @@ Voor de configuratie van de logistic regression model hebben we alle parameters 
 
 ### Training a model
 
-Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV [zoekt](https://towardsdatascience.com/grid-search-for-hyperparameter-tuning-9f63945e8fec) de beste parameters voor je uit om je model te trainen. Dit is de reden waarom we alle parameters in ons model gezet hebben.
+Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van GridSearchCV. GridSearchCV [zoekt](https://towardsdatascience.com/grid-search-for-hyperparameter-tuning-9f63945e8fec) de beste hyperparameters voor je uit om je model te trainen. Dit is de reden waarom we alle hyperparameters in ons model gezet hebben.
 
         start_time = time.perf_counter()
         clf = GridSearchCV(model, param_grid, cv=5, scoring=scoring, n_jobs=5) 
@@ -234,7 +237,7 @@ Om te voorkomen dat het model over- of underfit, hebben we gebruikt gemaakt van 
 
         super().model_accuracy(clf, x_train, x_test, y_train, y_test)
         
-Ik heb gespeeld met de cv parameter om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele train accuracy van de RAVDESS dataset lichtelijk beter scoort dan bij een oneven variabele.
+Ik heb gespeeld met de cv variabele om te zien of er bij diverse variabelen in de test en train accuracy verschil is. Wat er opvalt is dat bij een even variabele train accuracy van de RAVDESS dataset lichtelijk beter scoort dan bij een oneven variabele.
 
 
 | cv | Train CREMA-D | Test CREMA-D | Train RAVDESS  | Test RAVDESS | 
@@ -441,7 +444,7 @@ De code voor het classificeren van emoties in positive en negative:
     
     return pd.DataFrame(data, columns=["file", "emotion"])
     
-De volledige notebook is [hier]((Notebooks/universal_audio_preprocessing.pdf)) te vinden.
+De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf) te vinden.
 
 De code voor het generen van de databestanden in json (het formaat waarmee de projectgroep voor de preprocessing van data heeft gebruikt):
            
@@ -455,12 +458,11 @@ De code voor het generen van de databestanden in json (het formaat waarmee de pr
             print("Default")
             df = load_files_in_df(datasets[key], dataset_name)
             
-De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf)te vinden.
+De volledige notebook is [hier](Notebooks/universal_audio_preprocessing.pdf) te vinden.
 
-Voor de toekomst kan er nog eventueel gekeken worden om de emoties in de classificaties aan te passen. 
-Daarnaast kan er een neutral variable toegevoegd worden als dat nodig is.
+De classificatie hadden we aangepast naar de vier emoties die de product owner belangrijk vond.
 
-De code zal er dan zo uit zien (met de product owner is er besproken om deze 4 emoties te gebruiken, dit kan echter met goedkeuring van de product owner gewijzigd worden):
+De code:
       
     def load_data_in_pos_neg(path, dataset_name:str):
     data = []
@@ -493,7 +495,7 @@ De code zal er dan zo uit zien (met de product owner is er besproken om deze 4 e
     
     return pd.DataFrame(data, columns=["file", "emotion"])
     
-Deze classificatie hebben we op 5 epochs in de CNN uitgevoerd. Wegens tijdgebrek hebben we het niet op 50 epochs kunnen runnen. De [evaluatie](https://docs.google.com/spreadsheets/d/1cotzrDF123I6xcrfCqHcOY2XAV_MtHLj/edit#gid=2125836345) is hier te vinden. 
+Deze classificatie hebben we op 5 epochs in de CNN uitgevoerd. Wegens tijdgebrek hebben we het niet op 50 epochs kunnen runnen. De [evaluatie van de ML modellen](https://docs.google.com/spreadsheets/d/1cotzrDF123I6xcrfCqHcOY2XAV_MtHLj/edit#gid=2125836345) is hier te vinden. De [evaluatie van de CNN](https://docs.google.com/spreadsheets/d/15s7mXbDSCtUMacnr4ykLQ_CVoNac0SYIfB_-5OHKVDI/edit#gid=0) is hier te vinden.
 
 
 ### Data explanation
