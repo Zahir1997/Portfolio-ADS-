@@ -533,7 +533,7 @@ De interne presentaties nam projectlid Jaap voor rekening. Bij de externe presen
 [Learning lab](https://docs.google.com/presentation/d/1NrmkkP36NY3_dqtBgHQRZkpA7xsUlrhc/edit?rtpof=true)
 
 ### Writing paper
-Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de eerste versie van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen.  
+Ik en projectleden Yuri, Breno en Jaap waren gestart met het schrijven van de paper. Ik heb een bijdrage geleverd aan een deel van de eerste versie van de Introduction, Background, Evaluation Method, en Future Work van de paper. Projectleden Koen en Julian sloten na hun werkzaamheden aan. De projectgroep had besloten om samen de paper alinea voor alinea te behandelen. Ik heb een bijdrage hieraan geleverd door onderdelen van alineas aan te passen en met aanpassingssugessties te komen. 
 
 ## List of Notebooks 
 
